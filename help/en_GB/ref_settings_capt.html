@@ -1,0 +1,266 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DVGrabGUI Help → Reference → Settings → Capture</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Prev: <a href="ref_video_small.html">Reference → Video Window ("Small" mode)</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_settings_hw.html">Reference → Settings → Hardware</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Reference → Settings → Capture</h3></center>
+	
+	This tab allows you to set options about the capture itself. Probably the
+	most used one!
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_sett_capt.png" alt="&quot;Settings→Capture&quot; window" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="6,26,126,46" alt="Go to the window menus page" href="ref_menus.html">
+		<area shape="rect" coords="5,179,81,203" alt="Go to &quot;hardware&quot; sub-panel page" href="ref_settings_hw.html">
+		<area shape="rect" coords="5,242,81,296" alt="Go to &quot;gui&quot; sub-panel page" href="ref_settings_gui.html">
+		<area shape="rect" coords="90,107,348,127" alt="Go to &quot;1 frame/&quot; description" href="#sett_capt_showfps">
+		<area shape="rect" coords="400,96,490,116" alt="Go to &quot;show video&quot; description" href="#sett_capt_showvideo">
+		<area shape="rect" coords="400,118,490,138" alt="Go to &quot;play beep&quot; description" href="#sett_capt_playbeep">
+		<area shape="rect" coords="93,176,493,214" alt="Go to &quot;directory and prefix for video files&quot; description" href="#sett_capt_dirfileprefix">
+		<area shape="rect" coords="560,183,828,209" alt="Go to &quot;Video file type&quot; description" href="#sett_capt_videofiletype">
+		<area shape="rect" coords="93,234,493,270" alt="Go to &quot;max file size&quot; description" href="#sett_capt_maxfilesize">
+		<area shape="rect" coords="560,232,696,276" alt="Go to &quot;size to time&quot; description" href="#sett_capt_sizedesc">
+		<area shape="rect" coords="93,292,493,342" alt="Go to &quot;max file size in a collection&quot; description" href="#sett_capt_maxsizecoll">
+		<area shape="rect" coords="560,292,828,342" alt="Go to &quot;min file size in a collection&quot; description" href="#sett_capt_minsizecoll">
+		<area shape="rect" coords="92,392,217,412" alt="Go to &quot;dv date/time&quot; description" href="#sett_capt_dvtime">
+		<area shape="rect" coords="236,392,420,412" alt="Go to &quot;dv frame timecode&quot; description" href="#sett_capt_dvtimecode">
+		<area shape="rect" coords="438,392,594,412" alt="Go to &quot;system date/time&quot; description" href="#sett_capt_systime">
+		<area shape="rect" coords="92,477,182,507" alt="Go to &quot;auto detect new clips&quot; description" href="#sett_capt_detectnewclips">
+		<area shape="rect" coords="255,460,571,496" alt="Go to &quot;save one frame each&quot; description" href="#sett_capt_saveeach">
+		<area shape="rect" coords="594,460,839,510" alt="Go to &quot;max frame to save&quot;" href="#sett_capt_maxframesave">
+		<area shape="rect" coords="92,551,208,571" alt="Go to &quot;enable lockstep&quot; description" href="#sett_capt_lockstep">
+		<area shape="rect" coords="255,542,571,578" alt="Go to &quot;number of consecutive drops allowed&quot; description" href="#sett_capt_numdrops">
+		<area shape="rect" coords="594,542,839,578" alt="Go to &quot;total number of drops allowed&quot; description" href="#sett_capt_totnumdrops">
+		<area shape="rect" coords="87,89,901,143" alt="Go to &quot;dv display controls&quot; group description" href="#sett_capt_gdvdisp">
+		<area shape="rect" coords="87,161,901,357" alt="Go to &quot;video files parameters&quot; group description" href="#sett_capt_gvideofiles">
+		<area shape="rect" coords="87,375,901,427" alt="Go to &quot;file name options&quot; group description" href="#sett_capt_gfilename">
+		<area shape="rect" coords="87,445,901,593" alt="Go to &quot;recording features&quot; group description" href="#sett_capt_grecfeatures">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<a name="sett_capt_gdvdisp"></a>
+			<h4>Dv display controls:</h4>
+			This box regroups the dv display settings in the video window:
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_showfps"></a>
+					<b>1 frame/</b>
+					<br>
+					Show a dv frame each n frames received.
+				</li>
+				<li>
+					<a name="sett_capt_showvideo"></a>
+					<b>Show Video</b>
+					<br>
+					Check box to activate or not this display. Disable it if you want
+					to save battery, or have "sigsev" problems (you should have the
+					same ones if trying to use the "jpeg" recording feature: there
+					are problems with your version of "libdv").
+				</li>
+				<li>
+					<a name="sett_capt_playbeep"></a>
+					<b>Play "beep"</b>
+					<br>
+					Other check box to activate or not the "beep" sound while
+					recording.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_capt_gvideofiles"></a>
+			<h4>Video files parameters:</h4>
+			This box regroups the main video file settings.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_dirfileprefix"></a>
+					<b>Directory and prefix for vidéo files</b>
+					<br>
+					To set, first the path where to write video files, then the first
+					part of the video files names (completed by an optional date/time
+					value, a number and the file extension, chosen by the choice
+					control at right).
+					<br>
+					The "…" button opens a dialog box to chose the
+					base directory for the video files.
+				</li>
+				<li>
+					<a name="sett_capt_videofiletype"></a>
+					<b>Video file type</b>
+					<br>
+					This choice box allows you to select the format of the video files:
+					<ul>
+						<li>
+							<b>AVI 1</b> – AVI container, no "openDML" (big files) available,
+							no double-store of audio data;
+						</li>
+						<li>
+							<b>AVI 2</b> – <i>Default choice.</i> AVI container, with
+							"openDML" (big files), but double-store of audio data
+							(little loss of space…);
+						</li>
+						<li>
+							<b>Raw (<i>*.dv, *.dif</i>)</b> – Record dv stream "as is",
+							without encapsulating it in a container;
+						</li>
+						<li>
+							<b>Jpeg</b> – Record dv stream as a sequence of jpeg images.
+							Note that this may not be present, if libjpeg wasn't
+							discovered at building time. Note too that you shouldn't
+							try to record every dv frame: you should rather record at
+							most one frame each two, or each three…
+						</li>
+					</ul>
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_maxfilesize"></a>
+					<b>Max file size:</b>
+					<br>
+					The maximum file size, in Mo. If set to "0", there is no limit!
+				</li>
+				<li>
+					<a name="sett_capt_sizedesc"></a>
+					<b>Static text</b>
+					<br>
+					This info text shows you the record time, and the max number of
+					frames in PAL and NTSC, allowed by the previous "Max file size"
+					setting (it varies depending on the format chosen&nbsp;–&nbsp;for
+					Jpeg images, it is <i>the worst case</i>&nbsp;–&nbsp;full
+					noise!&nbsp;–&nbsp;for the <i>normal definition</i>: in general,
+					you will be able to store at least as much jpeg images as dv
+					frames recordable by other formats…).
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_maxsizecoll"></a>
+					<b>Max file size in a collection</b>
+					<br>
+					If >0, creates collections of files of this size (in Mo). Useful
+					if you want to write these files on CDs (!), DVDs, or are using
+					a FAT partition, …
+				</li>
+				<li>
+					<a name="sett_capt_minsizecoll"></a>
+					<b>Min file size in a collection</b>
+					<br>
+					To be sure that you won't have files smaller than this value (in
+					Mo) in your collection!
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_capt_gfilename"></a>
+			<h4>File names options:</h4>
+			You can append the following time data to your file names:
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_dvtime"></a>
+					<b>The dv Date/Time</b>
+					<br>
+					Append the Date/Time recorded on the dv tape.
+				</li>
+				<li>
+					<a name="sett_capt_dvtimecode"></a>
+					<b>The 1rst dv frame timecode</b>
+					<br>
+					Append the timecode of the first frame recorded.
+				</li>
+				<li>
+					<a name="sett_capt_systime"></a>
+					<b>The system Date/Time</b>
+					<br>
+					Append the OS date/time when capture started.
+				</li>
+			</ul>
+		</li>
+		<a name="sett_capt_grecfeatures"></a>
+		<li>
+			<h4>Recording features:</h4>
+			More options to control the recording.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_detectnewclips"></a>
+					<b>Auto detect new clips</b>
+					<br>
+					Try to create a new file for each dv clip (detected by dv stream
+					meta-data, or discontinuity in timecode).
+				</li>
+				<li>
+					<a name="sett_capt_saveeach"></a>
+					<b>Save one frame each</b>
+					<br>
+					Save only one frame each n frames received.
+				</li>
+				<li>
+					<a name="sett_capt_maxframesave"></a>
+					<b>Max frames to save</b>
+					<br>
+					The maximum number of frames stored before halting the capture.
+					The text below gives you info of corresponding time in PAL
+					(25fps) and NTSC (30fps). If set to "0", there is no limit!
+					<br>
+					Note that the shorter between this setting and the
+					"<a href="#sett_capt_maxfilesize">Max file size</a>" one wins!
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_lockstep"></a>
+					<b>Enable Lockstep</b>
+					<br>
+					Enable this to stop dv recording if there are too much frames
+					dropped during capture (see the two other settings below). Note
+					that DVGrabGUI repeats the last complete frame received to
+					replace the dropped ones…
+				</li>
+				<li>
+					<a name="sett_capt_numdrops"></a>
+					<b>Number of consecutive drops allowed</b>
+					<br>
+					This is the number of consecutive frames dropped (not received,
+					or incomplete) that DVGrabGUI will replace with the last good
+					one, before it stops the capture. If set to "-1", there is no
+					limit!
+				</li>
+				<li>
+					<a name="sett_capt_totnumdrops"></a>
+					<b>Total number of drops allowed</b>
+					<br>
+					This is the maximum number of drops allowed during a capture,
+					before DVGrabGUI stops the capture. As above, if set to "-1",
+					there is no limit!
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<hr>
+	Prev: <a href="ref_video_small.html">Reference → Video Window ("Small" mode)</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_settings_hw.html">Reference → Settings → Hardware</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 at wanadoo dot fr).
+		<br>
+		Project hosted at <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//FR" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Aide de DVGrabGUI → Référence → Fenêtre Vidéo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Pré: <a href="ref_menus.html">Référence → Menus</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_video_small.html">Référence → Fenêtre Vidéo (mode "Petit")</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Référence → Fenêtre Vidéo</h3></center>
+
+	Il s'agit de la fenêtre principale, où vous pouvez visualiser le flux dv, et
+	démarrer/arrêter la capture…
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_video.png" alt="Fenêtre Vidéo" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="8,24,152,47" alt="Aller à la page sur les menus" href="ref_menus.html">
+		<area shape="rect" coords="5,51,51,76" alt="Aller à la description générale de l&apos;onglet vidéo" href="#video_norm_videotab">
+		<area shape="rect" coords="51,51,117,76" alt="Aller à la description générale de l&apos;onglet réglages" href="#video_norm_settingstab">
+		<area shape="rect" coords="117,51,189,76" alt="Aller à la description générale de l&apos;onglet messages" href="#video_norm_logstab">
+		<area shape="rect" coords="189,51,226,76" alt="Aller à la description générale de l&apos;onglet aide" href="#video_norm_helptab">
+		<area shape="rect" coords="12,89,731,664" alt="Aller à la description de la &quot;vraie&quot; fenêtre vidéo" href="#video_norm_video">
+		<area shape="rect" coords="7,676,452,697" alt="Aller à la description de la première zone de la barre d&apos;état" href="#video_norm_statbar1">
+		<area shape="rect" coords="457,676,653,697" alt="Aller à la description de la deuxième zone de la barre d&apos;état" href="#video_norm_statbar2">
+		<area shape="rect" coords="657,676,803,697" alt="Aller à la description de la troisième zone de la barre d&apos;état" href="#video_norm_statbar3">
+		<area shape="rect" coords="807,676,903,697" alt="Aller à la description de la quatrième zone de la barre d&apos;état" href="#video_norm_statbar4">
+		<area shape="rect" coords="742,97,815,126" alt="Aller à la description du bouton &quot;Pause/Stop&quot;" href="#video_norm_standbystop">
+		<area shape="rect" coords="818,97,892,126" alt="Aller à la description du bouton &quot;Enregistrer/Pause&quot;" href="#video_norm_recordpause">
+		<area shape="rect" coords="742,147,892,167" alt="Aller à la description du champ texte &quot;Préfixe fichier&quot;" href="#video_norm_fileprefix">
+		<area shape="rect" coords="736,180,897,370" alt="Aller à la description de la zone texte &quot;infos diverses&quot;" href="#video_norm_miscinfo">
+		<area shape="rect" coords="736,378,897,670" alt="Aller à la description de la zone texte &quot;Espace disque&quot;" href="#video_norm_diskspace">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<h4>Les quatre onglets supérieurs</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="video_norm_videotab"></a>
+				<b>La fenêtre "Vidéo"</b>
+				<br>
+				C'est la fenêtre principale, où vous démarrez/arrêtez la capture dv,
+				et contrôlez ce que vous enregistrez.
+			</li>
+			<li>
+				<a name="video_norm_settingstab"></a>
+				<b>La fenêtre "Réglages"</b>
+				<br>
+				C'est là où vous réglez (quasiment) toutes les options de la capture
+				et de l'interface.
+				<br>
+				Fenêtre divisée en trois sous-onglets:
+				<a href="ref_settings_capt.html">Capture</a>,
+				<a href="ref_settings_hw.html">Matériel</a>, et
+				<a href="ref_settings_gui.html">GUI</a>.
+			</li>
+			<li>
+				<a name="video_norm_logstab"></a>
+				<b>La fenêtre "Messages"</b>
+				<br>
+				Cette fenêtre affiche tous les messages envoyés par DVGrabGUI (ou
+				la wxWidgets utilisée!)
+				<br>
+				Notez que ces messages sont aussi écrits dans un fichier .log
+				(<code>~/.dvgrabgui/dvgrabgui.log</code>). Joignez ce fichier à tout
+				rapport de bug!
+			</li>
+			<li>
+				<a name="video_norm_helptab"></a>
+				<b>La fenêtre "Aide"</b>
+				<br>
+				Affiche cette fenêtre!
+				<br>
+				Notez que cet onglet n'est disponible qu'avec wxWidgets 2.8; avec
+				wxWidgets 2.6, l'aide s'affiche dans une fenêtre séparée…
+			</li>
+		</ul>
+		<li>
+			<h4>La fenêtre "Vidéo"</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="video_norm_video"></a>
+				<b>Affichage vidéo</b>
+				<br>
+				Cette fenêtre affiche le flux dv quand le thread de capture est en
+				marche.
+				<br>
+				Elle vous permet de démarrer/arrêter le thread de capture (clic
+				gauche sur la moitié gauche de la fenêtre), et…
+				<br>
+				Elle vous permet de démarrer/arrêter l'enregistrement (clic gauche
+				sur la moitié droite de la fenêtre).
+			</li>
+			<li>
+				<b>Barre d'état</b>
+				<br>
+				<ul>
+					<li>
+						<a name="video_norm_statbar1"></a>
+						<b>Première zone:</b> C'est la zone "d'info générale" (aide
+						des entrées de menu, …).
+					</li>
+					<li>
+						<a name="video_norm_statbar2"></a>
+						<b>Seconde zone:</b> Elle vous donne l'état du thread de
+						capture.
+					</li>
+					<li>
+						<a name="video_norm_statbar3"></a>
+						<b>Troisième zone:</b> Elle vous indique si votre souris est
+						capturée ou non.
+					</li>
+					<li>
+						<a name="video_norm_statbar4"></a>
+						<b>Quatrième zone:</b> Elle vous donne l'état de la capture
+						(enregistrement ou en pause).
+					</li>
+				</ul>
+			</li>
+			<br>
+			<li>
+				<a name="video_norm_standbystop"></a>
+				<b>Bouton Pause/Stop</b>
+				<br>
+				Bouton pour démarrer/arrêter le thread de capture (même fonction que
+				la partie gauche de la fenêtre vidéo).
+			</li>
+			<li>
+				<a name="video_norm_recordpause"></a>
+				<b>Bouton Enregistrer/Pause</b>
+				<br>
+				Bouton pour démarrer/arrêter l'enregistrement dv (même fonction que
+				la partie droite de la fenêtre vidéo&nbsp;–&nbsp;désactivé quand le
+				thread de capture n'est pas démarré!).
+s			</li>
+			<li>
+				<a name="video_norm_fileprefix"></a>
+				<b>Champ texte "Préfixe des fichiers vidéo"</b>
+				<br>
+				Entrez ici le préfixe que vous voulez inclure dans tous vos noms de
+				fichiers capturés (par ex. <code>capt-</code> donnera des noms comme
+				<code>capt-0001.avi</code>, <code>capt-0002.avi</code>, etc.).
+				<br>
+				Notez que vous avez plus d'options sur les noms de fichiers dans la
+				<a href="ref_settings_capt.html#sett_capt_gfilename">fenêtre
+				des réglages</a>.
+			</li>
+			<li>
+				<a name="video_norm_miscinfo"></a>
+				<b>Zone texte "Infos diverses"</b>
+				<br>
+				Ce texte statique vous donne des infos "matérielles": images
+				reçues/capturées/perdues pendant la capture, Port/Node/Channel/GUID
+				de la connexion dv établie, et l'état de la caméra dv-rapportée…
+			</li>
+			<li>
+				<a name="video_norm_diskspace"></a>
+				<b>Espace disque</b>
+				<br>
+				Cette zone vous donne des infos sur l'espace disque total/restant
+				(pour le point de montage correspondant au dossier où vous avez
+				choisi d'enregistrer vos fichiers vidéo).
+			</li>
+		</ul>
+	</ul>
+
+	<hr>
+	Pré: <a href="ref_menus.html">Référence → Menus</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_video_small.html">Référence → Fenêtre Vidéo (mode "Petit")</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 chez wanadoo point fr).
+		<br>
+		Projet hébergé sur <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

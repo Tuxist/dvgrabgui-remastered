@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+	<head>
+		<!-- Sitemap 1.0 -->
+	</head>
+	<body>
+		<ul>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Introducción">
+					<param name="ID" value=100>
+					<param name="Local" value="main.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Utilización">
+					<param name="ID" value=110>
+					<param name="Local" value="usage.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias">
+					<param name="ID" value=120>
+					<param name="Local" value="ref_index.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias - Menús">
+					<param name="ID" value=121>
+					<param name="Local" value="ref_menus.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias - Ventana Vídeo">
+					<param name="ID" value=122>
+					<param name="Local" value="ref_video_norm.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias - Ventana Vídeo (modalidad 'pequeña')">
+					<param name="ID" value=123>
+					<param name="Local" value="ref_video_small.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias - Reglajes - Captura">
+					<param name="ID" value=124>
+					<param name="Local" value="ref_settings_capt.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias - Reglajes - Material">
+					<param name="ID" value=125>
+					<param name="Local" value="ref_settings_hw.html">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Referencias - Reglajes - GUI">
+					<param name="ID" value=126>
+					<param name="Local" value="ref_settings_gui.html">
+				</object>
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,120 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DVGrabGUI Help → Usage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Prev: <a href="main.html">Introduction</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_index.html">Reference</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Usage</h3></center>
+
+	<p>
+		I coded this program because I needed a dv recording software witch I
+		could control Rec/Pause command with the mouse buttons; the typical use is
+		on a laptop:
+		<ul>
+			<li>
+				Plug in the dv camera and the external mouse (put a piece of tape on
+				the LED&nbsp;–&nbsp;a wireless mouse would be perfect!);
+			</li>
+			<li>
+				Launch DVGrabGUI, adjust the settings and start the capture thread;
+			</li>
+			<li>
+				With the touch-pad, place the mouse pointer on the video window,
+				close the laptop screen (for saving batteries… Do not forget to
+				uncheck the 'show video' control… saving you more cpu usage and
+				batteries!). Be careful: most of the time you'll have to deactivate
+				the 'sleep' function activated when closing the screen!;
+			</li>
+			<li>
+				Go to stand-by mode (right button + left button);
+			</li>
+			<li>
+				To record, press left button (there is a 'beep' sound as long as you
+				are recording), press the right button to pause;
+			</li>
+			<li>
+				A new video file is created each time you press left button;
+			</li>
+			<li>
+				To leave stand-by mode, repress right button + left button;
+			</li>
+		</ul>
+	</p>
+	<p>
+		This was designed to 'forget' the laptop in a backpack (for example) while
+		shooting, and to keep a certain mobility. You can store your preferred
+		settings in files, or make them defaults.
+	</p>
+	<p>
+		This new version is also designed to be used with a small touchscreen
+		(there is a special GUI mode for small screens&nbsp;–&nbsp;800×600).
+	</p>
+	<p>
+		See the <a href="ref_index.html">reference</a> for more details!
+	</p>
+
+	<hr>
+
+	<h3>Notes, Bugs and workaround!</h3>
+	<p>
+		<h4>Notes:</h4>
+		<ul>
+			<li>
+				This should be the last version of this app: I plan to develop a new
+				one, based on GStreamer&nbsp;–&nbsp;should be easier to maintain &
+				upgrade!
+			</li>
+		</ul>
+	</p>
+	<p>
+		<h4>Known bugs & workaround:</h4>
+		<ul>
+			<li>
+				On recent systems, you must use dvrabgui as "root" (firewire
+				devices seem unusable by regular users?!?).
+			</li>
+			<li>
+				If you are using recent version of your OS (like Fedora 7 or 8),
+				this program might not work at all (like dvgrab): there are problems
+				with the firewire system!
+				<br>
+				It seems it had been resolved in Fedora 9 (kernel 2.6.25).
+				<br>
+				Note that this version was developed under Debian Etch (4.0).
+			</li>
+			<li>
+				If, while the capture thread is starting, it halt immediately, and
+				there are the following messages:
+				<br>
+				<code>"DVG-CPT: invalid DV source specified."</code>, and
+				<br>
+				<code>"DVG-CPT: DV reader couldn't be initialised."</code>,
+				<br>
+				there is a problem with your libavc1394: you have to select the dv
+				device in the 'Settings' → 'Hardware' tab ('GUID' choice box).
+			</li>
+			<li>
+				If, while the capture thread is starting, the program shuts down
+				without any warning, try to unset the 'Show video' check box
+				('Settings' → 'Capture'&nbsp;–&nbsp;there is a problem with your
+				libdv!).
+			</li>
+		</ul>
+	</p>
+
+	<hr>
+	Prev: <a href="main.html">Introduction</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_index.html">Reference</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 at wanadoo dot fr).
+		<br>
+		Project hosted at <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<img src="GUI_norm_sett_capt.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,26,152,46" alt="Aller à la page sur les menus" href="ref_menu.html" />
+<area shape="rect" coords="5,179,88,203" alt="Aller à la page du sous-panneau &amp;quot;Matériel&amp;quot;" href="ref_settings_hw.html" />
+<area shape="rect" coords="5,242,88,296" alt="Aller à la page du sous-panneau &amp;quot;GUI&amp;quot;" href="ref_settings_gui.html" />
+<area shape="rect" coords="94,89,901,143" alt="Aller à la description du groupe &amp;quot;Réglages d&amp;apos;affichage des images dv&amp;quot;" href="#sett_capt_gdvdisp" />
+<area shape="rect" coords="94,161,901,357" alt="Aller à la description du groupe &amp;quot;Paramètres des fichiers vidéo&amp;quot;" href="#sett_capt_gvideofiles" />
+<area shape="rect" coords="94,375,901,427" alt="Aller à la description du groupe &amp;quot;Options du nom de fichier&amp;quot;" href="#sett_capt_gfilename" />
+<area shape="rect" coords="94,445,901,593" alt="Aller à la description du groupe &amp;quot;Réglages d&amp;apos;enregistrement&amp;quot;" href="#sett_capt_grecfeatures" />
+<area shape="rect" coords="98,107,344,127" alt="Aller à la description de &quot;1 imp./&quot;" href="#sett_capt_showfps" />
+<area shape="rect" coords="394,96,484,116" alt="Aller à la description de &quot;Aff. vidéo&quot;" href="#sett_capt_showvideo" />
+<area shape="rect" coords="394,118,484,138" alt="Aller à la description de &quot;Son beep&quot;" href="#sett_capt_playbeep" />
+<area shape="rect" coords="100,176,496,214" alt="Aller à la description de &quot;Dossier et préfixe pour les fichiers vidéo&quot;" href="#sett_capt_dirfileprefix" />
+<area shape="rect" coords="560,183,828,209" alt="Aller à la description de &quot;Type des fichiers vidéo&quot;" href="#sett_capt_videofiletype" />
+<area shape="rect" coords="100,234,496,270" alt="Aller à la description de &quot;T. max fichier&quot;" href="#sett_capt_maxfilesize" />
+<area shape="rect" coords="560,232,696,276" alt="Aller à la description de &quot;Taille vers temps&quot;" href="#sett_capt_sizedesc" />
+<area shape="rect" coords="100,292,496,342" alt="Aller à la description de &quot;T. max fichier dans une collec.&quot;" href="#sett_capt_maxsizecoll" />
+<area shape="rect" coords="560,292,828,342" alt="Aller à la description de &quot;T. min fichier dans une collec&quot;" href="#sett_capt_minsizecoll" />
+<area shape="rect" coords="98,392,228,412" alt="Aller à la description de &quot;Date/Heure dv&quot;" href="#sett_capt_dvtime" />
+<area shape="rect" coords="246,392,460,412" alt="Aller à la description de &quot;timecode de la 1ere image dv&quot;" href="#sett_capt_dvtimecode" />
+<area shape="rect" coords="478,392,664,412" alt="Aller à la description de &quot;Date/Heure du système&quot;" href="#sett_capt_systime" />
+<area shape="rect" coords="98,477,212,507" alt="Aller à la description de &quot;détection auto nouveaux clips&quot;" href="#sett_capt_detectnewclips" />
+<area shape="rect" coords="260,460,573,496" alt="Aller à la description de &quot;Sauver une image toutes les&quot;" href="#sett_capt_saveeach" />
+<area shape="rect" coords="596,460,839,510" alt="Aller à la description de &quot;Nbr max d&apos;img. à sauver&quot;" href="#sett_capt_maxframesave" />
+<area shape="rect" coords="98,551,212,571" alt="Aller à la description de &quot;Activer Lockstep&quot;" href="#sett_capt_lockstep" />
+<area shape="rect" coords="260,542,573,578" alt="Aller à la description de &quot;Nbr d&apos;img. perdues consécutives autorisées&quot;" href="#sett_capt_numdrops" />
+<area shape="rect" coords="596,542,839,578" alt="Aller à la description de &quot;Nbr total d&apos;img. perdues autorisées&quot;" href="#sett_capt_totnumdrops" />
+</map>

@@ -1,0 +1,10 @@
+
+Import('env')
+
+# Build sources
+sources=['ieee1394io.cpp', 'raw1394util.cpp', 'avi.cpp', 'riff.cpp', 'smiltime.cpp',
+         'filehandler.cpp', 'frame.cpp', 'stringutils.cpp', 'dvgrab.cpp',
+         'settingswindow.cpp', 'vidwin.cpp','mainwindow.cpp', 'mainframe.cpp', 'theapp.cpp']
+# Default target
+prog = env.Program('$binName', sources)
+Return('prog')

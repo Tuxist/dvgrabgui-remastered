@@ -1,0 +1,31 @@
+<img src="GUI_menus.png" width="583" height="291" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="0,0,34,24" alt="Go to &amp;quot;File&amp;quot; menu description" href="#menu_file" />
+<area shape="rect" coords="0,24,255,47" alt="Go to description of &amp;quot;Load Settings&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_loadsettings" />
+<area shape="rect" coords="0,47,255,70" alt="Go to description of &amp;quot;Reload settings&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_reloadsettings" />
+<area shape="rect" coords="0,70,255,93" alt="Go to description of &amp;quot;Reload default settings&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_reloaddefsettings" />
+<area shape="rect" coords="0,93,255,116" alt="Go to description of &amp;quot;Set as default&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_setasdefault" />
+<area shape="rect" coords="0,116,255,139" alt="Go to description of &amp;quot;Reset default&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_resetdefault" />
+<area shape="rect" coords="0,139,255,162" alt="Go to description of &amp;quot;Save settings&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_savesettings" />
+<area shape="rect" coords="0,162,255,185" alt="Go to description of &amp;quot;Save settings as…&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_savesettingsas" />
+<area shape="rect" coords="0,185,255,208" alt="Go to description of &amp;quot;Options&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_options" />
+<area shape="rect" coords="0,220,255,243" alt="Go to description of &amp;quot;Languages&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_languages" />
+<area shape="rect" coords="255,218,335,290" alt="Go to description of &amp;quot;Languages&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_languages" />
+<area shape="rect" coords="0,251,255,274" alt="Go to description of &amp;quot;Exit&amp;quot; entry in &amp;quot;File&amp;quot; menu" href="#menu_file_exit" />
+<area shape="rect" coords="258,0,302,24" alt="Go to &amp;quot;Work&amp;quot; menu description" href="#menu_work" />
+<area shape="rect" coords="258,24,486,47" alt="Go to description of &amp;quot;Start Thread&amp;quot; entry in &amp;quot;Work&amp;quot; menu" href="#menu_work_startthread" />
+<area shape="rect" coords="258,47,486,70" alt="Go to description of &amp;quot;Stop Thread&amp;quot; entry in &amp;quot;Work&amp;quot; menu" href="#menu_work_stopthread" />
+<area shape="rect" coords="258,80,486,103" alt="Go to description of &amp;quot;Start Capture&amp;quot; entry in &amp;quot;Work&amp;quot; menu" href="#menu_work_startcapture" />
+<area shape="rect" coords="258,103,486,126" alt="Go to description of &amp;quot;Stop Capture&amp;quot; entry in &amp;quot;Work&amp;quot; menu" href="#menu_work_stopcapture" />
+<area shape="rect" coords="258,136,486,159" alt="Go to description of &amp;quot;Clear log window&amp;quot; entry in &amp;quot;Work&amp;quot; menu" href="#menu_work_clearlogwindow" />
+<area shape="rect" coords="258,169,486,192" alt="Go to description of &amp;quot;Full Screen&amp;quot; entry in &amp;quot;Work&amp;quot; menu" href="#menu_work_fullscreen" />
+<area shape="rect" coords="489,0,531,24" alt="Go to &amp;quot;Help&amp;quot; menu description" href="#menu_help" />
+<area shape="rect" coords="489,24,582,47" alt="Go to description of &amp;quot;Help&amp;quot; entry in &amp;quot;Help&amp;quot; menu" href="#menu_help_help" />
+<area shape="rect" coords="489,47,582,70" alt="Go to description of &amp;quot;About…&amp;quot; entry in &amp;quot;Help&amp;quot; menu" href="#menu_help_about" />
+</map>

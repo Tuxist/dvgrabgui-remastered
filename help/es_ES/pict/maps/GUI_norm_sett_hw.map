@@ -1,0 +1,29 @@
+<img src="GUI_norm_sett_hw.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,26,170,46" alt="Ir a la página de menús" href="ref_menus.html" />
+<area shape="rect" coords="5,121,83,141" alt="Ir a la página &quot;Captura&quot;" href="ref_settings_capt.html" />
+<area shape="rect" coords="5,244,83,294" alt="Ir a la página &quot;Atajos/GUI&quot;" href="ref_settings_gui.html" />
+<area shape="rect" coords="92,142,196,172" alt="Ir a la descriptción de &quot;utilizar stdin como entrada&quot;" href="#sett_hw_usestdin" />
+<area shape="rect" coords="218,105,310,155" alt="Ir a la descriptción de &quot;Port&quot;" href="#sett_hw_port" />
+<area shape="rect" coords="333,105,425,155" alt="Ir a la descriptción de &quot;Node&quot;" href="#sett_hw_node" />
+<area shape="rect" coords="448,105,614,155" alt="Ir a la descriptción de &quot;Channel&quot;" href="#sett_hw_channel" />
+<area shape="rect" coords="218,164,614,206" alt="Ir a la descriptción de &quot;GUID&quot;" href="#sett_hw_guid" />
+<area shape="rect" coords="92,256,270,276" alt="Ir a la descriptción de &quot;Desactivar la AV/C&quot;" href="#sett_hw_disableavc" />
+<area shape="rect" coords="92,278,270,308" alt="Ir a la descriptción de &quot;Desactivar el mando stop cuando se para la captura&quot;" href="#sett_hw_disablestop" />
+<area shape="rect" coords="289,258,484,306" alt="Ir a la descriptción de &quot;Núm. de img. por guardar en RAM&quot;" href="#sett_hw_framesinram" />
+<area shape="rect" coords="494,272,662,292" alt="Ir a la descriptción de &quot;Registrar los datos VAUX&quot;" href="#sett_hw_vaux" />
+<area shape="rect" coords="92,358,282,378" alt="Ir a la descriptción de &quot;Desentrelazar las imágenes&quot;" href="#sett_hw_jpegdeinterlace" />
+<area shape="rect" coords="92,382,282,402" alt="Ir a la descriptción de &quot;Reemplazar los ficheros jpeg&quot;" href="#sett_hw_jpegoverwrite" />
+<area shape="rect" coords="304,353,409,403" alt="Ir a la descriptción de &quot;Cualidad&quot;" href="#sett_hw_jpegquality" />
+<area shape="rect" coords="432,353,529,403" alt="Ir a la descriptción de &quot;Ancho&quot;" href="#sett_hw_jpegwidth" />
+<area shape="rect" coords="552,353,649,403" alt="Ir a la descriptción de &quot;Altura&quot;" href="#sett_hw_jpegheight" />
+<area shape="rect" coords="89,89,901,221" alt="Ir a la descriptción del grupo &quot;Selección del periférico&quot;" href="#sett_hw_gdevice" />
+<area shape="rect" coords="89,239,901,321" alt="Ir a la descriptción del grupo &quot;Opciones de captura&quot;" href="#sett_hw_gcaptoptions" />
+<area shape="rect" coords="89,339,901,418" alt="Ir a la descriptción del grupo &quot;Opciones Jpeg&quot;" href="#sett_hw_gjpeg" />
+</map>

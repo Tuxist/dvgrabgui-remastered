@@ -1,0 +1,34 @@
+<img src="GUI_norm_sett_capt.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="6,26,126,46" alt="Go to the window menus page" href="ref_menu.html" />
+<area shape="rect" coords="5,179,81,203" alt="Go to &quot;hardware&quot; sub-panel page" href="ref_settings_hw.html" />
+<area shape="rect" coords="5,242,81,296" alt="Go to &quot;gui&quot; sub-panel page" href="ref_settings_gui.html" />
+<area shape="rect" coords="87,89,901,143" alt="Go to &quot;dv display controls&quot; group description" href="#sett_capt_gdvdisp" />
+<area shape="rect" coords="87,161,901,357" alt="Go to &quot;video files parameters&quot; group description" href="#sett_capt_gvideofiles" />
+<area shape="rect" coords="87,375,901,427" alt="Go to &quot;file name options&quot; group description" href="#sett_capt_gfilename" />
+<area shape="rect" coords="87,445,901,593" alt="Go to &quot;recording features&quot; group description" href="#sett_capt_grecfeatures" />
+<area shape="rect" coords="90,107,348,127" alt="Go to &quot;1 frame/&quot; description" href="#sett_capt_showfps" />
+<area shape="rect" coords="400,96,490,116" alt="Go to &quot;show video&quot; description" href="#sett_capt_showvideo" />
+<area shape="rect" coords="400,118,490,138" alt="Go to &quot;play beep&quot; description" href="#sett_capt_playbeep" />
+<area shape="rect" coords="93,176,493,214" alt="Go to &quot;directory and prefix for video files&quot; description" href="#sett_capt_dirfileprefix" />
+<area shape="rect" coords="560,183,828,209" alt="Go to &quot;Video file type&quot; description" href="#sett_capt_videofiletype" />
+<area shape="rect" coords="93,234,493,270" alt="Go to &quot;max file size&quot; description" href="#sett_capt_maxfilesize" />
+<area shape="rect" coords="560,232,696,276" alt="Go to &quot;size to time&quot; description" href="#sett_capt_sizedesc" />
+<area shape="rect" coords="93,292,493,342" alt="Go to &quot;max file size in a collection&quot; description" href="#sett_capt_maxsizecoll" />
+<area shape="rect" coords="560,292,828,342" alt="Go to &quot;min file size in a collection&quot; description" href="#sett_capt_minsizecoll" />
+<area shape="rect" coords="92,392,217,412" alt="Go to &quot;dv date/time&quot; description" href="#sett_capt_dvtime" />
+<area shape="rect" coords="236,392,420,412" alt="Go to &quot;dv frame timecode&quot; description" href="#sett_capt_dvtimecode" />
+<area shape="rect" coords="438,392,594,412" alt="Go to &quot;system date/time&quot; description" href="#sett_capt_systime" />
+<area shape="rect" coords="92,477,182,507" alt="Go to &quot;auto detect new clips&quot; description" href="#sett_capt_detectnewclips" />
+<area shape="rect" coords="255,460,571,496" alt="Go to &quot;save one frame each&quot; description" href="#sett_capt_saveeach" />
+<area shape="rect" coords="594,460,839,510" alt="Go to &quot;max frame to save&quot;" href="#sett_capt_maxframesave" />
+<area shape="rect" coords="92,551,208,571" alt="Go to &quot;enable lockstep&quot; description" href="#sett_capt_lockstep" />
+<area shape="rect" coords="255,542,571,578" alt="Go to &quot;number of consecutive drops allowed&quot; description" href="#sett_capt_numdrops" />
+<area shape="rect" coords="594,542,839,578" alt="Go to &quot;total number of drops allowed&quot; description" href="#sett_capt_totnumdrops" />
+</map>

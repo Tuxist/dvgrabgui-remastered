@@ -1,0 +1,195 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DVGrabGUI Help → Reference → Settings → Hardware</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Prev: <a href="ref_settings_capt.html">Reference → Settings → Capture</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_settings_gui.html">Reference → Settings → GUI</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Reference → Settings → Hardware</h3></center>
+	
+	This tab allows you to set more advanced options, mainly hardware ones.
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_sett_hw.png" alt="&quot;Settings→Hardware&quot; window" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="8,26,123,46" alt="Go to window menus page" href="ref_menus.html">
+		<area shape="rect" coords="5,121,81,141" alt="Go to &quot;Capture&quot; settings page" href="ref_settings_capt.html">
+		<area shape="rect" coords="5,244,81,294" alt="Go to &quot;Shortcuts/GUI&quot;settings page" href="ref_settings_gui.html">
+		<area shape="rect" coords="90,142,180,172" alt="Go to &quot;Use stdin as dv input&quot; description" href="#sett_hw_usestdin">
+		<area shape="rect" coords="200,105,292,155" alt="Go to &quot;Port&quot; description" href="#sett_hw_port">
+		<area shape="rect" coords="315,105,407,155" alt="Go to &quot;Node&quot; description" href="#sett_hw_node">
+		<area shape="rect" coords="430,105,571,155" alt="Go to &quot;Channel&quot; description" href="#sett_hw_channel">
+		<area shape="rect" coords="200,164,571,206" alt="Go to &quot;GUID&quot; description" href="#sett_hw_guid">
+		<area shape="rect" coords="90,256,228,276" alt="Go to &quot;Disable use of AV/C&quot; description" href="#sett_hw_disableavc">
+		<area shape="rect" coords="90,278,248,308" alt="Go to &quot;Disable stop command when halting capture&quot; description" href="#sett_hw_disablestop">
+		<area shape="rect" coords="268,258,461,306" alt="Go to &quot;Number of frames to keep in RAM&quot; description" href="#sett_hw_framesinram">
+		<area shape="rect" coords="472,272,590,292" alt="Go to &quot;Store VAUX data&quot; description" href="#sett_hw_vaux">
+		<area shape="rect" coords="90,358,244,378" alt="Go to &quot;Deinterlace dv frames&quot; description" href="#sett_hw_jpegdeinterlace">
+		<area shape="rect" coords="90,382,270,402" alt="Go to &quot;Allow overwriting jpeg files&quot; description" href="#sett_hw_jpegoverwrite">
+		<area shape="rect" coords="289,353,381,403" alt="Go to &quot;Quality&quot; description" href="#sett_hw_jpegquality">
+		<area shape="rect" coords="404,353,501,403" alt="Go to &quot;Width&quot; description" href="#sett_hw_jpegwidth">
+		<area shape="rect" coords="524,353,621,403" alt="Go to &quot;Height&quot; description" href="#sett_hw_jpegheight">
+		<area shape="rect" coords="87,89,901,221" alt="Go to &quot;Device selection options&quot; group description" href="#sett_hw_gdevice">
+		<area shape="rect" coords="87,239,901,321" alt="Go to &quot;Capture options&quot; group description" href="#sett_hw_gcaptoptions">
+		<area shape="rect" coords="87,339,901,418" alt="Go to &quot;Jpeg Options&quot; group description" href="#sett_hw_gjpeg">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<a name="sett_hw_gdevice"></a>
+			<h4>Device selection options:</h4>
+			This box regroups the hardware source dv settings. You shouldn't have
+			to change these settings, unless using more than one dv sources.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_hw_usestdin"></a>
+					<b>Use stdin as dv input</b>
+					<br>
+					If enabled, DVGrabGUI will try to capture a dv stream from the
+					standard input. <i>Feature NOT tested!</i> Note that when
+					enabled, the four others settings are not available.
+				</li>
+				<br>
+				<li>
+					<a name="sett_hw_port"></a>
+					<b>Port</b>
+					<br>
+					Set the firewire "port" used to search dv device. You should
+					leave it at "-1" to leave DVGrabGUI auto selects it.
+				</li>
+				<li>
+					<a name="sett_hw_node"></a>
+					<b>Node</b>
+					<br>
+					Set the firewire "node" used by the dv device. You should leave
+					it at "-1" to leave DVGrabGUI auto selects it.
+				</li>
+				<li>
+					<a name="sett_hw_channel"></a>
+					<b>Channel</b>
+					<br>
+					Set the firewire "channel" over witch the dv connection will be
+					established. By default, it is over the "63" one. You should
+					leave it at "-1" to leave DVGrabGUI auto selects it.
+				</li>
+				<li>
+					<a name="sett_hw_guid"></a>
+					<b>GUID</b>
+					<br>
+					Set the GUID (device identifier) of the firewire device to use as
+					dv source. If set to "0" ("<code>Ox0000000000000000</code>"),
+					DVGrabGUI will try to auto detect a dv source. You can also chose
+					one of the detected devices&nbsp;–&nbsp;DVGrabGUI tries to give
+					you the names of these devices… without any warranty! Or you can
+					enter yourself an hexadecimal GUID value (of type
+					"<code>Ox00af56980000ce76</code>"&nbsp;–&nbsp;other-formatted
+					values will fall back to default "zero" value!).
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_hw_gcaptoptions"></a>
+			<h4>Capture options:</h4>
+			This box regroups various internal settings.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_hw_disableavc"></a>
+					<b>Disable use of AV/C</b>
+					<br>
+					Do not use the abilities of controlling the camera from the PC
+					(not very useful for now).
+				</li>
+				<li>
+					<a name="sett_hw_disablestop"></a>
+					<b>Disable stop command when halting capture</b>
+					<br>
+					Don't send stop command when halting dv recording. Only useful
+					when recording from tapes…
+				</li>
+				<li>
+					<a name="sett_hw_framesinram"></a>
+					<b>Number of frames to keep in RAM</b>
+					<br>
+					The number of dv frames to cache in memory (1 frame = 144Ko).
+				</li>
+				<li>
+					<a name="sett_hw_vaux"></a>
+					<b>Store VAUX data</b>
+					<br>
+					Store the Video AUXiliary data of dv frames in an HTML file
+					(geek stuff&nbsp;–&nbsp;be careful, very big files very quickly!).
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_hw_gjpeg"></a>
+			<h4>Jpeg Options:</h4>
+			This box regroups the jpeg recording settings, only available when the
+			"Jpeg" file format has been chosen.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_hw_jpegdeinterlace"></a>
+					<b>Deinterlace dv frames</b>
+					<br>
+					If enabled, the frames will be roughly deinterlaced before saved
+					as Jpeg files.
+				</li>
+				<li>
+					<a name="sett_hw_jpegoverwrite"></a>
+					<b>Allow overwriting jpeg files</b>
+					<br>
+					If enabled, DVGrabGUI will overwrite the previously recorded jpeg
+					files; if not, it will add them (using higher frame numbers in
+					the file names…).
+				</li>
+				<li>
+					<a name="sett_hw_jpegquality"></a>
+					<b>Quality</b>
+					<br>
+					The Jpeg compression quality!
+				</li>
+				<li>
+					<a name="sett_hw_jpegwidth"></a>
+					<b>Width</b>
+					<br>
+					The width of the saved images: DVGrabGUI will down/up-scale the
+					dv frames as needed (if "width" and following "height" don't give
+					the correct aspect ratio, it is "width" which will be modified!).
+				</li>
+				<li>
+					<a name="sett_hw_jpegheight"></a>
+					<b>Height</b>
+					<br>
+					The height of the saved images: DVGrabGUI will down/up-scale the
+					dv frames as needed ("height" is never modified, see above).
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<hr>
+	Prev: <a href="ref_settings_capt.html">Reference → Settings → Capture</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_settings_gui.html">Reference → Settings → GUI</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 at wanadoo dot fr).
+		<br>
+		Project hosted at <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

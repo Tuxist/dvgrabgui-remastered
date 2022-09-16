@@ -1,0 +1,272 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//FR" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Aide de DVGrabGUI → Référence → Réglages → Capture</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Pré: <a href="ref_video_small.html">Référence → Fenêtre Vidéo (mode "Petit")</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_settings_hw.html">Référence → Réglages → Matériel</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Référence → Réglages → Capture</h3></center>
+	
+	Cet onglet vous permet de régler les options de la capture. Probablement les
+	plus utiles!
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_sett_capt.png" alt="Fenêtre &quot;Réglages→Capture&quot;" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="8,26,152,46" alt="Aller à la page sur les menus" href="ref_menu.html">
+		<area shape="rect" coords="5,179,88,203" alt="Aller à la page du sous-panneau &quot;Matériel&quot;" href="ref_settings_hw.html">
+		<area shape="rect" coords="5,242,88,296" alt="Aller à la page du sous-panneau &quot;GUI&quot;" href="ref_settings_gui.html">
+		<area shape="rect" coords="98,107,344,127" alt="Aller à la description de &quot;1 imp./&quot;" href="#sett_capt_showfps">
+		<area shape="rect" coords="394,96,484,116" alt="Aller à la description de &quot;Aff. vidéo&quot;" href="#sett_capt_showvideo">
+		<area shape="rect" coords="394,118,484,138" alt="Aller à la description de &quot;Son beep&quot;" href="#sett_capt_playbeep">
+		<area shape="rect" coords="100,176,496,214" alt="Aller à la description de &quot;Dossier et préfixe pour les fichiers vidéo&quot;" href="#sett_capt_dirfileprefix">
+		<area shape="rect" coords="560,183,828,209" alt="Aller à la description de &quot;Type des fichiers vidéo&quot;" href="#sett_capt_videofiletype">
+		<area shape="rect" coords="100,234,496,270" alt="Aller à la description de &quot;T. max fichier&quot;" href="#sett_capt_maxfilesize">
+		<area shape="rect" coords="560,232,696,276" alt="Aller à la description de &quot;Taille vers temps&quot;" href="#sett_capt_sizedesc">
+		<area shape="rect" coords="100,292,496,342" alt="Aller à la description de &quot;T. max fichier dans une collec.&quot;" href="#sett_capt_maxsizecoll">
+		<area shape="rect" coords="560,292,828,342" alt="Aller à la description de &quot;T. min fichier dans une collec&quot;" href="#sett_capt_minsizecoll">
+		<area shape="rect" coords="98,392,228,412" alt="Aller à la description de &quot;Date/Heure dv&quot;" href="#sett_capt_dvtime">
+		<area shape="rect" coords="246,392,460,412" alt="Aller à la description de &quot;timecode de la 1ere image dv&quot;" href="#sett_capt_dvtimecode">
+		<area shape="rect" coords="478,392,664,412" alt="Aller à la description de &quot;Date/Heure du système&quot;" href="#sett_capt_systime">
+		<area shape="rect" coords="98,477,212,507" alt="Aller à la description de &quot;détection auto nouveaux clips&quot;" href="#sett_capt_detectnewclips">
+		<area shape="rect" coords="260,460,573,496" alt="Aller à la description de &quot;Sauver une image toutes les&quot;" href="#sett_capt_saveeach">
+		<area shape="rect" coords="596,460,839,510" alt="Aller à la description de &quot;Nbr max d&apos;img. à sauver&quot;" href="#sett_capt_maxframesave">
+		<area shape="rect" coords="98,551,212,571" alt="Aller à la description de &quot;Activer Lockstep&quot;" href="#sett_capt_lockstep">
+		<area shape="rect" coords="260,542,573,578" alt="Aller à la description de &quot;Nbr d&apos;img. perdues consécutives autorisées&quot;" href="#sett_capt_numdrops">
+		<area shape="rect" coords="596,542,839,578" alt="Aller à la description de &quot;Nbr total d&apos;img. perdues autorisées&quot;" href="#sett_capt_totnumdrops">
+		<area shape="rect" coords="94,89,901,143" alt="Aller à la description du groupe &quot;Réglages d&apos;affichage des images dv&quot;" href="#sett_capt_gdvdisp">
+		<area shape="rect" coords="94,161,901,357" alt="Aller à la description du groupe &quot;Paramètres des fichiers vidéo&quot;" href="#sett_capt_gvideofiles">
+		<area shape="rect" coords="94,375,901,427" alt="Aller à la description du groupe &quot;Options du nom de fichier&quot;" href="#sett_capt_gfilename">
+		<area shape="rect" coords="94,445,901,593" alt="Aller à la description du groupe &quot;Réglages d&apos;enregistrement&quot;" href="#sett_capt_grecfeatures">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<a name="sett_capt_gdvdisp"></a>
+			<h4>Réglages d'affichage des images dv:</h4>
+			Ce cadre regroupe les réglages de l'affichage dv dans la fenêtre vidéo.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_showfps"></a>
+					<b>1 img./</b>
+					<br>
+					Afficher une image dv toutes les n images reçues.
+				</li>
+				<li>
+					<a name="sett_capt_showvideo"></a>
+					<b>Aff. vidéo</b>
+					<br>
+					Pour activer ou non l'affichage des images dv. Désactivez cette
+					option si vous voulez économiser vos batteries, ou rencontrez des
+					problèmes de "sigsev" (vous devriez d'ailleurs rencontrer les
+					mêmes si vous essayez l'enregistrement en images "jpeg": il y a
+					des problèmes avec votre version de "libdv").
+				</li>
+				<li>
+					<a name="sett_capt_playbeep"></a>
+					<b>Son "beep"</b>
+					<br>
+					Pour activer ou non le son "beep" pendant les enregistrements.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_capt_gvideofiles"></a>
+			<h4>Paramètres des fichiers vidéo:</h4>
+			Ce cadre regroupe les principaux réglages des fichiers vidéos.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_dirfileprefix"></a>
+					<b>Dossier et préfixe pour les fichiers vidéos</b>
+					<br>
+					Pour régler, d'abord le chemin où stocker les fichiers vidéo,
+					puis la première partie du nom des fichiers vidéos (complété par
+					une valeur date/heure optionnelle, un numéro et l'extension de
+					fichier, fonction du choix dans la liste à droite).
+					<br>
+					Le bouton "…" ouvre une boîte de dialogue pour choisir le dossier
+					qui contiendra les fichiers vidéo.
+				</li>
+				<li>
+					<a name="sett_capt_videofiletype"></a>
+					<b>Type des fichiers vidéo</b>
+					<br>
+					Cette liste déroulante vous permet de sélectionner le format des
+					fichiers vidéo:
+					<ul>
+						<li>
+							<b>AVI 1</b> – Conteneur AVI, pas d'"openDML" (gros
+							fichiers), pas de double-enregistrement des données audio;
+						</li>
+						<li>
+							<b>AVI 2</b> – <i>Choix par défaut.</i> Conteneur AVI, avec
+							"openDML" (gros fichiers), mais double-enregistrement des
+							données audio (légère perte de place…);
+						</li>
+						<li>
+							<b>Raw (<i>*.dv, *.dif</i>)</b> – Enregistrement du flux dv
+							"tel quel", sans encapsulation dans un conteneur;
+						</li>
+						<li>
+							<b>Jpeg</b> – Enregistrement du flux dv dans une série
+							d'images fixes jpeg. Notez que cette option peut être
+							absente, si libjpeg n'a pas été trouvée au moment de la
+							compilation. Notez également que vous ne devriez pas
+							essayer d'enregistrer toutes les frames dv: vous devriez
+							plutôt enregistrer au plus une image sur deux ou sur trois…
+						</li>
+					</ul>
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_maxfilesize"></a>
+					<b>T. max fichiers</b>
+					<br>
+					La taille maximum d'un fichier vidéo, en Mo. Si réglé à "0", il
+					n'y a pas de limite!
+				</li>
+				<li>
+					<a name="sett_capt_sizedesc"></a>
+					<b>Texte statique</b>
+					<br>
+					Ce texte d'info vous affiche le temps enregistré, et le nombre
+					maximum d'images en PAL et NTSC, permis par le réglage "T. max
+					fichiers" précédent (cela dépend aussi du format
+					choisi&nbsp;–&nbsp;pour les images Jpeg, il s'agit du <i>cas le
+					plus mauvais</i>&nbsp;–&nbsp;bruit aléatoire!&nbsp;–&nbsp;pour la
+					<i>définition normale</i>: en général, vous pourrez enregistrer
+					au moins autant d'images Jpeg que de frames dv dans les autres
+					formats…).
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_maxsizecoll"></a>
+					<b>T. max fichier dans une collec.</b>
+					<br>
+					Si >0, crée des "collections" de fichiers de cette taille (en Mo).
+					Utile si vous voulez graver ces fichiers sur des CDs (!), DVDs,
+					ou si vous utilisez une partition FAT, …
+				</li>
+				<li>
+					<a name="sett_capt_minsizecoll"></a>
+					<b>T. min fichier dans une collec.</b>
+					<br>
+					Pour être sure que vous n'aurez pas de fichiers plus petits que
+					cette valeur (en Mo) dans votre collection!
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_capt_gfilename"></a>
+			<h4>Options du nom de fichier:</h4>
+			Vous pouvez ajouter les données temporelles suivantes à vos noms de
+			fichier:
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_dvtime"></a>
+					<b>Les Date/Heure dv</b>
+					<br>
+					Ajoute les Date/Heure enregistrées sur la cassette dv.
+				</li>
+				<li>
+					<a name="sett_capt_dvtimecode"></a>
+					<b>Le timecode de la 1ere image dv</b>
+					<br>
+					Ajoute le timecode de la première image enregistrée.
+				</li>
+				<li>
+					<a name="sett_capt_systime"></a>
+					<b>Les Date/Heure du système</b>
+					<br>
+					Ajoute les date/heure de l'OS au moment du début de la capture.
+				</li>
+			</ul>
+		</li>
+		<a name="sett_capt_grecfeatures"></a>
+		<li>
+			<h4>Réglages d'enregistrement:</h4>
+			Options supplémentaires pour contrôler l'enregistrement.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_detectnewclips"></a>
+					<b>détection auto nouveaux clips</b>
+					<br>
+					Essaye de créer un nouveau fichier pour chaque clip (détecté par
+					les méta-données du flux dv, ou les discontinuités du timecode).
+				</li>
+				<li>
+					<a name="sett_capt_saveeach"></a>
+					<b>Sauver une image toutes les</b>
+					<br>
+					Enregistrer une image toutes les n images reçues.
+				</li>
+				<li>
+					<a name="sett_capt_maxframesave"></a>
+					<b>Nbr max d'img. à sauver</b>
+					<br>
+					Le nombre maximum d'images à enregistrer avant d'arrêter
+					l'enregistrement. Le texte en-dessous vous indique le temps
+					correspondant en PAL (25fps) et NTSC (30fps). Si réglé à "0", il
+					n'y a pas de limite!
+					<br>
+					Notez que le plus court entre ce réglage et 
+					"<a href="#sett_capt_maxfilesize">T. max fichier</a>" "gagne"!
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_lockstep"></a>
+					<b>Activer Lockstep</b>
+					<br>
+					Activez cette option pour arrêter l'enregistrement si trop
+					d'images sont perdues pendant celui-ci (voyez les deux réglages
+					ci-dessous). Notez que DVGrabGUI répète la dernière image
+					complète reçue pour remplacer celles qui sont perdues…
+				</li>
+				<li>
+					<a name="sett_capt_numdrops"></a>
+					<b>Nbr d'img. perdues consécutives autorisées</b>
+					<br>
+					C'est le nombre de pertes d'image (non reçue, ou incomplète)
+					consécutives autorisées pendant un enregistrement, que DVGrabGUI
+					remplacera avec la dernière bonne image reçue, avant l'arrêt de
+					la capture. Si réglé à "-1", il n'y a pas de limite!
+				</li>
+				<li>
+					<a name="sett_capt_totnumdrops"></a>
+					<b>Nbr total d'img. perdues autorisées</b>
+					<br>
+					C'est le nombre maximum de pertes permises pendant un
+					enregistrement, avant que DVGrabGUI n'arrête la capture. Comme
+					ci-dessus, si réglé à "-1", il n'y a pas de limite!
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<hr>
+	Pré: <a href="ref_video_small.html">Référence → Fenêtre Vidéo (mode "Petit")</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_settings_hw.html">Référence → Réglages → Matériel</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 chez wanadoo point fr).
+		<br>
+		Projet hébergé sur <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

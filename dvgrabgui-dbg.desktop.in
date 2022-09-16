@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=DVGrabGUI (debug)
+Name[es]=DVGrabGUI (debug)
+Name[fr]=DVGrabGUI (debug)
+Comment=Capture live video from a dv camera (wx-2.8)
+Comment[es]=Grabar vídeo con una cámara dv (wx-2.8)
+Comment[fr]=Capturer en direct de la vidéo depuis une caméra dv (wx-2.8)
+Exec=dvgrabgui-dbg
+Icon=${CMAKE_INSTALL_PREFIX}/share/dvgrabgui/dvgrabgui32x32
+Terminal=false
+Type=Application
+MimeType=application/x-dvgrabgui
+Categories=Application;AudioVideo;
+StartupNotify=false

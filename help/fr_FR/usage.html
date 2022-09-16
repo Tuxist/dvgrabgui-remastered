@@ -1,0 +1,129 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//FR" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Aide de DVGrabGUI → Utilisation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Pré: <a href="main.html">Introduction</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_index.html">Référence</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Utilisation</h3></center>
+
+	<p>
+		J'ai écrit ce programme car j'avais besoin d'un outil enregistrant de la
+		vidéo dv, dont je puisse contrôler les fonctions Enregistrement/Pause avec
+		les boutons de la souris; l'utilisation typique est avec un portable:
+		<ul>
+			<li>
+				Branchez le caméscope dv et la souris externe (collez un morceau de
+				Scotch sur la LED&nbsp;–&nbsp;une souris sans fil serait l'idéal!);
+			</li>
+			<li>
+				Lancez DVGrabGUI, ajustez les réglages et démarrez le thread de
+				capture;
+			</li>
+			<li>
+				Avec le touch-pad, placez le curseur de la souris sur la fenêtre
+				vidéo, fermez l'écran du portable (pour épargner vos batteries…
+				N'oubliez pas de désactiver l'option "Aff. vidéo"… pour économiser
+				encore plus d'usage CPU et de batteries!). Attention: vous devrez
+				généralement désactiver la fonction de "veille" activée à la
+				fermeture de l'écran!
+			</li>
+			<li>
+				Passez en mode pause (bouton droit + bouton gauche);
+			</li>
+			<li>
+				Pour enregistrer, pressez le bouton gauche (il y a un son "beep"
+				tout le long de l'enregistrement), pressez le bouton droit pour
+				revenir en pause.
+			</li>
+			<li>
+				Un nouveau fichier vidéo est créé à chaque fois que vous pressez le
+				bouton gauche;
+			</li>
+			<li>
+				Pour quitter le mode pause, refaites clic droit + clic gauche;
+			</li>
+		</ul>
+	</p>
+	<p>
+		Cela a été conçu pour "oublier" le portable dans un sac-à-dos (par
+		exemple) pendant le tournage, et ainsi garder une certaine mobilité. Vous
+		pouvez enregistrer vos réglages préférés dans un fichier, ou en faire les
+		réglages par défaut.
+	</p>
+	<p>
+		Cette nouvelle version a aussi été conçue pour être utilisée avec un petit
+		écran tactile (il y a un mode spécial de l'interface pour
+		ceux-ci&nbsp;–&nbsp;800×600).
+	</p>
+	<p>
+		Voyez la <a href="ref_index.html">référence</a> pour plus de détails!
+	</p>
+
+	<hr>
+
+	<h3>Notes, Bugs et "Solutions"!</h3>
+	<p>
+		<h4>Notes:</h4>
+		<ul>
+			<li>
+				Cela devrait être la dernière version de cette application: je
+				prévois d'en développer une nouvelle, basée sur
+				GStreamer&nbsp;–&nbsp;ce devrait être plus facile à maintenir &
+				améliorer!
+			</li>
+		</ul>
+	</p>
+	<p>
+		<h4>Bugs connus & "solutions":</h4>
+		<ul>
+			<li>
+				Sur les systèmes récents, vous devez utiliser dvgrabgui comme "root"
+				(les périphériques firewire semblent inutilisables par les
+				utilisateurs normaux?!?).
+			</li>
+			<li>
+				Si vous utilisez une version récente de votre OS (comme Fedora 7 ou
+				8), ce programme peut ne pas fonctionner du tout (comme dvgrab): il
+				y a des problèmes avec le système firewire!
+				<br>
+				Cela semble avoir été résolu dans Fedora 9 (noyau 2.6.25).
+				<br>
+				Notez que cette version a été développée sous Debian Etch (4.0).
+			</li>
+			<li>
+				Si, au démarrage du thread de capture, celui-ci s'arrête
+				immédiatement avec les messages suivants:
+				<br>
+				<code>"DVG-CPT: Source DV spécifiée non valide."</code>, et
+				<br>
+				<code>"DVG-CPT: Impossible d'initialiser le lecteur DV."</code>,
+				<br>
+				il y a un problème avec votre libavc1394: vous devez sélectionner le
+				périphérique dv dans l'onglet "Réglages" → "Matériel" (boîte de
+				choix "GUID").
+			</li>
+			<li>
+				Si, au démarrage du thread de capture, le programme se termine sans
+				prévenir, essayez de désactiver la case à cocher "Aff. vidéo"
+				("Réglages" → "Capture"&nbsp;–&nbsp;il y a un problème avec votre
+				libdv!).
+			</li>
+		</ul>
+	</p>
+
+	<hr>
+	Pré: <a href="main.html">Introduction</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_index.html">Référence</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 chez wanadoo point fr).
+		<br>
+		Projet hébergé sur <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

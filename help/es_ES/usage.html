@@ -1,0 +1,126 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//ES" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Ayuda de DVGrabGUI → Utilización</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Prec: <a href="main.html">Introducción</a> --- ↑<a href="main.html">Home</a> --- Sig: <a href="ref_index.html">Referencias</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Utilización</h3></center>
+
+	<p>
+		He escrito este programa porque necesitaba un instrumento de grabación dv
+		con que pudiera controlar el "Grabación"/"Pausa" mando con los botones del
+		ratón; la utilización típica es con un PC portátil:
+		<ul>
+			<li>
+				Conecte la cámara dv y el ratón exterior (pegué un pedazo de celo
+				sobre la LED&nbsp;–&nbsp;¡un ratón "sin hilo" sería ideal!);
+			</li>
+			<li>
+				Lance DVGrabGUI, ajuste los reglajes y encienda el thread de captura;
+			</li>
+			<li>
+				Con el "touch-pad", ponga el cursor del ratón dentro de la ventana
+				vídeo, cierre la pantalla del portátil (para preservar sus baterías…
+				No olvide de-seleccionar la opción "Mostrar vídeo"… ¡preservando
+				más sus baterías y utilización de CPU!). ¡Cuidado: casi siempre
+				tendrá que desactivar la funcionalidad de "vigilia" (???) activada
+				al cerrar la pantalla!;
+			</li>
+			<li>
+				Pase en modalidad de pausa (botón de derecha + botón de izquierda);
+			</li>
+			<li>
+				Para grabar, pulse el botón de izquierda (hay un sonido "beep"
+				durante toda la grabación), pulse el botón de derecha para pausar.
+			</li>
+			<li>
+				Un nuevo fichero vídeo es creado cada vez que pulse el botón de
+				izquierda;
+			</li>
+			<li>
+				Para quitar la modalidad de pausa, pulse de nuevo botón de derecha +
+				botón de izquierda;
+			</li>
+		</ul>
+	</p>
+	<p>
+		Ha sido pensado para "olvidar" el PC portátil en una mochila (por ejemplo)
+		mientras está grabando, y para conservar una cierta movilidad. Puede
+		registrar sus reglajes preferidos dentro de ficheros, o hacer de ellos los
+		de en rebeldía.
+	</p>
+	<p>
+		Esta nueva versión ha sido concebida también para ser utilizada con una
+		pequeña pantalla táctil (hay una modalidad de la interfaz especial para
+		los pequeñas pantallas&nbsp;–&nbsp;800×600).
+	</p>
+	<p>
+		¡Vea las <a href="ref_index.html">referencias</a> para más detalles!
+	</p>
+
+	<hr>
+
+	<h3>¡Notas, Bugs y soluciones!</h3>
+	<p>
+		<h4>Notas:</h4>
+		<ul>
+			<li>
+				Debería ser la última versión de este programa: preveo escribir uno
+				nuevo, basado en GStreamer&nbsp;–&nbsp;¡debería ser más fácil de
+				mantener & mejorar!
+			</li>
+		</ul>
+	</p>
+	<p>
+		<h4>Bugs conocidos & soluciones:</h4>
+		<ul>
+			<li>
+				Sobre sistemas recentes, usted debe ser como "root" para usar
+				dvgrabgui (los periféricos firewire parecen inutilizables como
+				regular usuario?!?).
+			</li>
+			<li>
+				Si utiliza une versión reciente de su OS (como Fedora 7 o 8), este
+				programa podría no funcionar en absoluto (como dvgrab): ¡hay un
+				problema con el sistema firewire!
+				<br>
+				Parece que ha sido resollado con Fedora 9 (kernel 2.6.25).
+				<br>
+				Fíjese en que esta versión ha sido escrita debajo de Debian Etch (4.0).
+			</li>
+			<li>
+				Si, mientras el thread de captura se encienda, para inmediatamente,
+				y hay los mensajes:
+				<br>
+				<code>"DVG-CPT: DV fuente especificada inválida."</code>, y
+				<br>
+				<code>"DVG-CPT: Imposible inicializar el lector DV."</code>,
+				<br>
+				hay un problema con su libavc1394: tiene que seleccionar el
+				periférico dv dentro del uñero "Reglajes" → "Material" ("GUID"
+				control).
+			</li>
+			<li>
+				Si, mientras el thread de captura se encienda, el programa para
+				sin aviso, intente de-seleccionar el control "Mostrar vídeo"
+				("Reglajes" → "Captura"&nbsp;–&nbsp;¡hay un problema con su libdv!).
+			</li>
+		</ul>
+	</p>
+
+	<hr>
+	Prec: <a href="main.html">Introducción</a> --- ↑<a href="main.html">Home</a> --- Sig: <a href="ref_index.html">Referencias</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 en wanadoo punto fr).
+		<br>
+		Proyecto albergado en <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

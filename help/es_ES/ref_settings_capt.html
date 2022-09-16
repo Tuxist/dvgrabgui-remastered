@@ -1,0 +1,267 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//ES" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Ayuda de DVGrabGUI → Referencias → Reglajes → Captura</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Pre: <a href="ref_video_small.html">Referencias → Ventana Vídeo (modalidad "pequeña")</a> --- ↑<a href="main.html">Home</a> --- Sig: <a href="ref_settings_hw.html">Referencias → Reglajes → Material</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Referencias → Reglajes → Captura</h3></center>
+	
+	Este uñero lo permite ajustar los opciones sobre la captura. ¡Probablemente
+	lo más utilizado!
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_sett_capt.png" alt="Ventana &quot;Reglajes→Captura&quot;" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="8,26,170,46" alt="Ir a la página de menús" href="ref_menu.html">
+		<area shape="rect" coords="5,179,83,203" alt="Ir a la página de &quot;Material&quot;" href="ref_settings_hw.html">
+		<area shape="rect" coords="5,242,83,296" alt="Ir a la página de &quot;Atajos/GUI&quot;" href="ref_settings_gui.html">
+		<area shape="rect" coords="92,107,335,127" alt="Ir a la descripción de &quot;1 img./&quot;" href="#sett_capt_showfps">
+		<area shape="rect" coords="386,96,490,116" alt="Ir a la descripción de &quot;Mostrar vídeo&quot;" href="#sett_capt_showvideo">
+		<area shape="rect" coords="386,118,490,138" alt="Ir a la descripción de &quot;Sonido beep&quot;" href="#sett_capt_playbeep">
+		<area shape="rect" coords="95,176,494,214" alt="Ir a la descripción de &quot;Directorio y prefijo para ficheros vídeo&quot;" href="#sett_capt_dirfileprefix">
+		<area shape="rect" coords="564,183,829,209" alt="Ir a la descripción de &quot;Tipos de los ficheros vídeo&quot;" href="#sett_capt_videofiletype">
+		<area shape="rect" coords="95,234,494,270" alt="Ir a la descripción de &quot;T. max fichero&quot;" href="#sett_capt_maxfilesize">
+		<area shape="rect" coords="564,232,734,276" alt="Ir a la descripción de &quot;Talla hacia duración&quot;" href="#sett_capt_sizedesc">
+		<area shape="rect" coords="95,292,494,342" alt="Ir a la descripción de &quot;T. max fichero en colección&quot;" href="#sett_capt_maxsizecoll">
+		<area shape="rect" coords="564,292,829,342" alt="Ir a la descripción de &quot;T. min fichero en colección&quot;" href="#sett_capt_minsizecoll">
+		<area shape="rect" coords="92,392,220,412" alt="Ir a la descripción de &quot;Fecha/Hora dv&quot;" href="#sett_capt_dvtime">
+		<area shape="rect" coords="240,392,460,412" alt="Ir a la descripción de &quot;timecode de la 1era imagen dv&quot;" href="#sett_capt_dvtimecode">
+		<area shape="rect" coords="476,392,660,412" alt="Ir a la descripción de &quot;Fecha/Hora del sistema&quot;" href="#sett_capt_systime">
+		<area shape="rect" coords="92,477,202,507" alt="Ir a la descripción de &quot;Detección auto nuevos clips&quot;" href="#sett_capt_detectnewclips">
+		<area shape="rect" coords="256,460,571,496" alt="Ir a la descripción de &quot;Registrar una imagen cada&quot;" href="#sett_capt_saveeach">
+		<area shape="rect" coords="594,460,839,510" alt="Ir a la descripción de &quot;Núm. max img. de registrar&quot;" href="#sett_capt_maxframesave">
+		<area shape="rect" coords="92,551,210,571" alt="Ir a la descripción de &quot;Activar Lockstep&quot;" href="#sett_capt_lockstep">
+		<area shape="rect" coords="256,542,571,578" alt="Ir a la descripción de &quot;Núm. de img. pérdidas consecutivas autorizadas&quot;" href="#sett_capt_numdrops">
+		<area shape="rect" coords="594,542,839,578" alt="Ir a la descripción de &quot;Núm total de imágenes pérdidas autorizadas&quot;" href="#sett_capt_totnumdrops">
+		<area shape="rect" coords="89,89,901,143" alt="Ir a la descripción del grupo &quot;Reglajes de visualización DV&quot;" href="#sett_capt_gdvdisp">
+		<area shape="rect" coords="89,161,901,357" alt="Ir a la descripción del grupo &quot;Reglajes de los ficheros vídeo&quot;" href="#sett_capt_gvideofiles">
+		<area shape="rect" coords="89,375,901,427" alt="Ir a la descripción del grupo &quot;Opciones del nombre del fichero&quot;" href="#sett_capt_gfilename">
+		<area shape="rect" coords="89,445,901,593" alt="Ir a la descripción del grupo &quot;Reglajes de grabación&quot;" href="#sett_capt_grecfeatures">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<a name="sett_capt_gdvdisp"></a>
+			<h4>Reglajes de visualización DV:</h4>
+			Este grupo reúne los reglajes de visualización DV en la ventana vídeo: 
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_showfps"></a>
+					<b>1 img./</b>
+					<br>
+					Mostrar una imagen cada n imágenes recibidas.
+				</li>
+				<li>
+					<a name="sett_capt_showvideo"></a>
+					<b>Mostrar vídeo</b>
+					<br>
+					Para (des)activar esta visualización. Desactívelo si quiere
+					preservar sus baterías, o tiene problemas de "sigsev" (debería
+					tener los mismos si intenta utilizar la grabación en ficheros
+					"jpeg": hay problemas con su versión de "libdv").
+				</li>
+				<li>
+					<a name="sett_capt_playbeep"></a>
+					<b>Sonido "beep"</b>
+					<br>
+					Para (des)activar el sonido "beep" durante la grabación.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_capt_gvideofiles"></a>
+			<h4>Reglajes de los ficheros vídeo:</h4>
+			Este grupo reúne los mayores reglajes de ficheros vídeo.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_dirfileprefix"></a>
+					<b>Directorio y prefijo para ficheros vídeo</b>
+					<br>
+					Para ajustar, primero el encaminador donde registrar los ficheros
+					vídeo, luego la primera parte del nombre de estos ficheros
+					(completado con una opcional valor de fecha/hora, un número y la
+					extensión de fichero, elegida con el control a la derecha).
+					<br>
+					El botón "…" abre una caja de diálogo para elegir el directorio
+					básico de los ficheros vídeo.
+				</li>
+				<li>
+					<a name="sett_capt_videofiletype"></a>
+					<b>Tipos de los ficheros vídeo</b>
+					<br>
+					Esta lista le permite elegir el formato de sus ficheros vídeo:
+					<ul>
+						<li>
+							<b>AVI 1</b> – AVI contenedor, no "openDML" (largos
+							ficheros) disponible, no doble-registrar de los datos audio;
+						</li>
+						<li>
+							<b>AVI 2</b> – <i>Elección en rebeldía.</i> AVI contenedor,
+							con "openDML" (largos ficheros), pero doble-registrar de
+							los datos audio (pequeña pérdida de espacio…);
+						</li>
+						<li>
+							<b>Raw (<i>*.dv, *.dif</i>)</b> – Grabación del flujo dv
+							"tal cual", sin estar encapsulado en un contenedor;
+						</li>
+						<li>
+							<b>Jpeg</b> – Grabar el flujo dv como una secuencia de
+							imágenes jpeg. Anote que podría no ser presente, si
+							"libjpeg" no fue encontrada durante la compilación. También
+							mire que no debería intentar grabar cada imagen dv: más
+							vale grabar una imagen cada dos, o cada tres…
+						</li>
+					</ul>
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_maxfilesize"></a>
+					<b>T. max fichero</b>
+					<br>
+					La talla máxima de un fichero, en Mo. Si ajustado a "0", ¡no hay
+					límites!
+				</li>
+				<li>
+					<a name="sett_capt_sizedesc"></a>
+					<b>Texto estático</b>
+					<br>
+					Este texto de informaciones le muestra la duración de grabación,
+					y el número máximo de imágenes en PAL y NTSC, permitidos por el
+					reglaje precedente "T. max fichero" (varia con arreglo al formato
+					elegido&nbsp;–&nbsp;para imágenes Jpeg, es el <i>peor
+					caso</i>&nbsp;–&nbsp;ruido total&nbsp;–&nbsp;para la
+					<i>definición normal</i>: por lo general, podrá registrar por lo
+					menos tantas imágenes como con los otros formatos…).
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_maxsizecoll"></a>
+					<b>T. max fichero en colección</b>
+					<br>
+					Si >0, crea colecciones de ficheros de tal talla (en Mo). Útil si
+					quiere grabar esos ficheros sobre CDs (!), DVDs, o utiliza una
+					partición FAT, …
+				</li>
+				<li>
+					<a name="sett_capt_minsizecoll"></a>
+					<b>T. min fichero en collección</b>
+					<br>
+					¡Para estar seguro de que no tendrá ficheros más pequeños que
+					este valor (en Mo) en su colección!
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_capt_gfilename"></a>
+			<h4>Opciones del nombre del fichero:</h4>
+			Aquí puede añadir a su nombre de fichero los datos de tiempo siguientes:
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_dvtime"></a>
+					<b>Las Fecha/Hora dv</b>
+					<br>
+					Añadir las Fecha/Hora registradas sobre la casete dv.
+				</li>
+				<li>
+					<a name="sett_capt_dvtimecode"></a>
+					<b>El timecode de la 1era imagen dv</b>
+					<br>
+					Añadir el timecode de la primera imagen grabada.
+				</li>
+				<li>
+					<a name="sett_capt_systime"></a>
+					<b>Las Fecha/Hora del sistema</b>
+					<br>
+					Añadir las Fecha/Hora del OS cuando la grabación fue encendida.
+				</li>
+			</ul>
+		</li>
+		<a name="sett_capt_grecfeatures"></a>
+		<li>
+			<h4>Reglajes de grabación:</h4>
+			Más opciones para controlar la grabación.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_capt_detectnewclips"></a>
+					<b>Detección auto nuevos clips</b>
+					<br>
+					Intentar crear un nuevo fichero cada nuevo clip dv (detectado
+					según los meta-datos del flujo dv, o discontinuidad en el
+					timecode).
+				</li>
+				<li>
+					<a name="sett_capt_saveeach"></a>
+					<b>Registrar una imagen cada</b>
+					<br>
+					Registrar una imagen cada n imágenes recibidas.
+				</li>
+				<li>
+					<a name="sett_capt_maxframesave"></a>
+					<b>Núm. max img. de registrar</b>
+					<br>
+					El número máximo de imágenes registradas antes de parar la
+					captura. El texto debajo le da informaciones del tiempo
+					correspondiente en PAL (25fps) y NTSC (30fps). Si a "0", ¡no hay
+					límites!
+					<br>
+					¡Fíjese en que lo más corto entre este reglaje y el
+					"<a href="#sett_capt_maxfilesize">T. max fichero</a>" gana!
+				</li>
+				<br>
+				<li>
+					<a name="sett_capt_lockstep"></a>
+					<b>Activar Lockstep</b>
+					<br>
+					Active esto para parar la grabación dv si hay demasiadas imágenes
+					pérdidas (vea los dos reglajes debajo). Mire bien que DVGrabGUI
+					repite la última imagen completa recibida para reemplazar las
+					pérdidas…
+				</li>
+				<li>
+					<a name="sett_capt_numdrops"></a>
+					<b>Núm. de img. pérdidas consecutivas autorizadas</b>
+					<br>
+					El número máximo de imágenes pérdidas consecutivas (no recibidas,
+					o incompletas) que DVGrabGUI reemplazará con la última correcta,
+					antes de parar la captura. Si a "-1", ¡no hay límites!
+				</li>
+				<li>
+					<a name="sett_capt_totnumdrops"></a>
+					<b>Núm. total de imágenes pérdidas autorizadas</b>
+					<br>
+					Es el número máximo de imágenes pérdidas autorizadas durante una
+					grabación, antes de que DVGrabGUI pare la captura. Como más
+					arriba, si a "-1", ¡no hay límites!
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<hr>
+	Pre: <a href="ref_video_small.html">Referencias → Ventana Vídeo (modalidad "pequeña")</a> --- ↑<a href="main.html">Home</a> --- Sig: <a href="ref_settings_hw.html">Referencias → Reglajes → Material</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 en wanadoo punto fr).
+		<br>
+		Proyecto albergado en <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

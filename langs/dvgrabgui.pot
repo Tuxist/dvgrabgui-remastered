@@ -1,0 +1,1011 @@
+# DVGrabGUI tamplate translation file.
+# Copyright (C) 2006-2008 Bastien Montagne
+# This file is distributed under the same license as the DVGrabGUI package.
+# Bastien Montagne <montagne29@wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DVGrabGUI v0.9.3\n"
+"Report-Msgid-Bugs-To: montagne29@wanadoo.fr\n"
+"POT-Creation-Date: 2008-02-15 10:27+0100\n"
+"Last-Translator: Bastien Montagne <montagne29@wanadoo.fr>\n"
+"Language-Team: YOUR TEAM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: /home/debian/dvgrabgui\n"
+"PO-Revision-Date: 2008-03-29 15:19+0100\n"
+"X-Poedit-SearchPath-0: ./src\n"
+
+#: src/theapp.cpp:177
+msgid "DVG-APP: Couldn't start capture thread"
+msgstr ""
+
+#: src/mainframe.cpp:38
+msgid "en_GB/help/help_dvgrabgui_en_GB.hhp"
+msgstr ""
+
+#: src/mainframe.cpp:46
+msgid "&File"
+msgstr ""
+
+#: src/mainframe.cpp:47
+msgid "Load settings"
+msgstr ""
+
+#: src/mainframe.cpp:48
+msgid "&Load settings\t"
+msgstr ""
+
+#: src/mainframe.cpp:49
+msgid "Load a new configuration"
+msgstr ""
+
+#: src/mainframe.cpp:50
+msgid "Reload settings"
+msgstr ""
+
+#: src/mainframe.cpp:51
+msgid "&Reload settings\t"
+msgstr ""
+
+#: src/mainframe.cpp:52
+msgid "Reload the current configuration"
+msgstr ""
+
+#: src/mainframe.cpp:53
+msgid "Reload default settings"
+msgstr ""
+
+#: src/mainframe.cpp:54
+msgid "Reload &default settings\t"
+msgstr ""
+
+#: src/mainframe.cpp:55
+msgid "Reload the default configuration"
+msgstr ""
+
+#: src/mainframe.cpp:56
+msgid "Set as default"
+msgstr ""
+
+#: src/mainframe.cpp:57
+msgid "Se&t as default\t"
+msgstr ""
+
+#: src/mainframe.cpp:58
+msgid "Set the current configuration as default"
+msgstr ""
+
+#: src/mainframe.cpp:59
+msgid "Reset default"
+msgstr ""
+
+#: src/mainframe.cpp:60
+msgid "R&eset default\t"
+msgstr ""
+
+#: src/mainframe.cpp:61
+msgid "Reset the default configuration"
+msgstr ""
+
+#: src/mainframe.cpp:62
+msgid "Save settings"
+msgstr ""
+
+#: src/mainframe.cpp:63
+msgid "&Save settings\t"
+msgstr ""
+
+#: src/mainframe.cpp:64
+msgid "Save the current configuration"
+msgstr ""
+
+#: src/mainframe.cpp:65
+msgid "Save settings as..."
+msgstr ""
+
+#: src/mainframe.cpp:66
+msgid "S&ave settings as...\t"
+msgstr ""
+
+#: src/mainframe.cpp:67
+msgid "Save the current configuration in another file"
+msgstr ""
+
+#: src/mainframe.cpp:68
+msgid "Options"
+msgstr ""
+
+#: src/mainframe.cpp:69
+msgid "&Options\t"
+msgstr ""
+
+#: src/mainframe.cpp:70
+msgid "Show the Settings tab"
+msgstr ""
+
+#: src/mainframe.cpp:71
+msgid "Languages"
+msgstr ""
+
+#: src/mainframe.cpp:72
+msgid "Lan&guages\t"
+msgstr ""
+
+#: src/mainframe.cpp:73
+msgid "Select the GUI language"
+msgstr ""
+
+#: src/mainframe.cpp:74
+msgid "Exit"
+msgstr ""
+
+#: src/mainframe.cpp:75
+msgid "E&xit\t"
+msgstr ""
+
+#: src/mainframe.cpp:76
+msgid "Quit this program"
+msgstr ""
+
+#: src/mainframe.cpp:78
+msgid "&Work"
+msgstr ""
+
+#: src/mainframe.cpp:79
+msgid "Start Thread"
+msgstr ""
+
+#: src/mainframe.cpp:80
+msgid "&Start Thread\t"
+msgstr ""
+
+#: src/mainframe.cpp:81
+msgid "Start the thread managing the dv stream"
+msgstr ""
+
+#: src/mainframe.cpp:82
+msgid "Stop Thread"
+msgstr ""
+
+#: src/mainframe.cpp:83
+msgid "S&top Thread\t"
+msgstr ""
+
+#: src/mainframe.cpp:84
+msgid "Stop the thread managing the dv stream"
+msgstr ""
+
+#: src/mainframe.cpp:85
+msgid "Start Capture"
+msgstr ""
+
+#: src/mainframe.cpp:86
+msgid "St&art Capture\t"
+msgstr ""
+
+#: src/mainframe.cpp:87
+msgid "Start capturing dv data (i.e. recording video!)"
+msgstr ""
+
+#: src/mainframe.cpp:88
+msgid "Stop Capture"
+msgstr ""
+
+#: src/mainframe.cpp:89
+msgid "St&op Capture\t"
+msgstr ""
+
+#: src/mainframe.cpp:90
+msgid "Stop capturing dv data (i.e. recording video!)"
+msgstr ""
+
+#: src/mainframe.cpp:91
+msgid "Clear Error log"
+msgstr ""
+
+#: src/mainframe.cpp:92
+msgid "&Clear Error log\t"
+msgstr ""
+
+#: src/mainframe.cpp:93
+msgid "Clear the error log window"
+msgstr ""
+
+#: src/mainframe.cpp:94
+msgid "Full Screen"
+msgstr ""
+
+#: src/mainframe.cpp:95
+msgid "&Full Screen\t"
+msgstr ""
+
+#: src/mainframe.cpp:96
+msgid "Go in/out full screen mode"
+msgstr ""
+
+#: src/mainframe.cpp:98
+msgid "&Help"
+msgstr ""
+
+#: src/mainframe.cpp:99
+#: src/mainframe.cpp:110
+msgid "Help"
+msgstr ""
+
+#: src/mainframe.cpp:100
+msgid "&Help\t"
+msgstr ""
+
+#: src/mainframe.cpp:101
+msgid "Show the \"Help\" window"
+msgstr ""
+
+#: src/mainframe.cpp:102
+msgid "About..."
+msgstr ""
+
+#: src/mainframe.cpp:103
+msgid "&About...\t"
+msgstr ""
+
+#: src/mainframe.cpp:104
+msgid "Show the \"About\" dialog"
+msgstr ""
+
+#: src/mainframe.cpp:107
+msgid ""
+"V\n"
+"I\n"
+"D\n"
+"E\n"
+"O"
+msgstr ""
+
+#: src/mainframe.cpp:107
+msgid "Video"
+msgstr ""
+
+#: src/mainframe.cpp:108
+msgid ""
+"S\n"
+"E\n"
+"T\n"
+"T\n"
+"I\n"
+"N\n"
+"G\n"
+"S"
+msgstr ""
+
+#: src/mainframe.cpp:108
+msgid "Settings"
+msgstr ""
+
+#: src/mainframe.cpp:109
+msgid ""
+"L\n"
+"O\n"
+"G\n"
+"S"
+msgstr ""
+
+#: src/mainframe.cpp:109
+msgid "Logs"
+msgstr ""
+
+#: src/mainframe.cpp:110
+msgid ""
+"H\n"
+"E\n"
+"L\n"
+"P"
+msgstr ""
+
+#: src/mainframe.cpp:468
+msgid "DVG-MFR: Couldn't load the \"beep\" wave file"
+msgstr ""
+
+#: src/mainframe.cpp:500
+msgid "Load settings ..."
+msgstr ""
+
+#: src/mainframe.cpp:501
+#: src/mainframe.cpp:590
+msgid "DVGrabGUI settings file (*.dvs.xml)|*.dvs.xml"
+msgstr ""
+
+#: src/mainframe.cpp:571
+msgid "Overwrite file: "
+msgstr ""
+
+#: src/mainframe.cpp:572
+#: src/settingswindow.cpp:1445
+#: src/settingswindow.cpp:1464
+#: src/settingswindow.back.cpp:1398
+#: src/settingswindow.back.cpp:1417
+msgid "Warning"
+msgstr ""
+
+#: src/mainframe.cpp:589
+msgid "Save settings as ..."
+msgstr ""
+
+#: src/mainframe.cpp:731
+msgid ""
+"DVGrabGUI (c) 2006-2008 Bastien Montagne.\n"
+"Released under the GNU GPL license, either v2 or any later version.\n"
+"Based on DVGrab, by Dan Dennedy and Kino team.\n"
+"Coded for ASCIA association."
+msgstr ""
+
+#: src/mainframe.cpp:736
+msgid "About DVGrabGUI"
+msgstr ""
+
+#: src/mainframe.cpp:762
+msgid "DVG-MFR: Capture Thread stopped, due to internal error(s)"
+msgstr ""
+
+#: src/mainframe.cpp:1084
+msgid "Mouse Captured"
+msgstr ""
+
+#: src/mainframe.cpp:1086
+msgid "Mouse Free"
+msgstr ""
+
+#: src/mainframe.cpp:1101
+msgid "RECORDING"
+msgstr ""
+
+#: src/mainframe.cpp:1109
+msgid "PAUSED"
+msgstr ""
+
+#: src/mainframe.cpp:1117
+msgid "Capture thread running"
+msgstr ""
+
+#: src/mainframe.cpp:1124
+msgid "Capture thread stoped"
+msgstr ""
+
+#: src/mainframe.cpp:2159
+msgid ""
+"Old version of configuration file!\n"
+"DVGrabGUI is about to update it...\n"
+"Do you want to make a backup copy of the old version?"
+msgstr ""
+
+#: src/mainframe.cpp:2162
+msgid "Warning: old version of config file!"
+msgstr ""
+
+#: src/dvgrab.cpp:87
+msgid "DVG-CPT: no camera exists"
+msgstr ""
+
+#: src/dvgrab.cpp:97
+msgid "DVG-CPT: failed to initialize AV/C"
+msgstr ""
+
+#: src/dvgrab.cpp:106
+msgid "DVG-CPT: failed to establish isochronous connection"
+msgstr ""
+
+#: src/dvgrab.cpp:109
+#, c-format
+msgid "DVG-CPT: Established connection over channel %d"
+msgstr ""
+
+#: src/dvgrab.cpp:116
+msgid "DVG-CPT: invalid DV source specified"
+msgstr ""
+
+#: src/dvgrab.cpp:156
+msgid "DVG-CPT: DV reader couldn't be initialized"
+msgstr ""
+
+#: src/dvgrab.cpp:164
+msgid "DVG-CPT: Couldn't start reader thread"
+msgstr ""
+
+#: src/dvgrab.cpp:254
+msgid "DVG-CPT: Tired waiting reader!! (> 5s)"
+msgstr ""
+
+#: src/dvgrab.cpp:297
+#, c-format
+msgid "DVG-CPT: %d dropped frames: buffer underrun near:"
+msgstr ""
+
+#: src/dvgrab.cpp:299
+#, c-format
+msgid ""
+"timecode: %2.2d:%2.2d:%2.2d.%2.2d date %4.4d.%2.2d.%2.2d %2.2d:%2.2d:%2.2d \n"
+"This error means that the frame could not be written fast enough!"
+msgstr ""
+
+#: src/dvgrab.cpp:307
+msgid "The frame(s) couldn't be written fast enough."
+msgstr ""
+
+#: src/dvgrab.cpp:320
+msgid "DVG-CPT: Closing file early due to too many dropped frames"
+msgstr ""
+
+#: src/dvgrab.cpp:338
+#, c-format
+msgid "DVG-CPT: %d frames dropped near:"
+msgstr ""
+
+#: src/dvgrab.cpp:340
+#, c-format
+msgid "timecode %2.2d:%2.2d:%2.2d.%2.2d date %4.4d.%2.2d.%2.2d %2.2d:%2.2d:%2.2d"
+msgstr ""
+
+#: src/dvgrab.cpp:347
+msgid "The ieee1394 driver received an(some) incomplete frame(s)"
+msgstr ""
+
+#: src/dvgrab.cpp:359
+msgid "DVG-CPT: closing file early due to too many incomplete frames"
+msgstr ""
+
+#: src/dvgrab.cpp:464
+msgid "DVG-CPT: reader has erred or signaling a stop condition (end of pipe): stoping capture thread"
+msgstr ""
+
+#: src/dvgrab.cpp:513
+msgid "DVG-CPT: turning on OpenDML to support large file size."
+msgstr ""
+
+#: src/dvgrab.cpp:560
+msgid "DVG-CPT: capture started."
+msgstr ""
+
+#: src/dvgrab.cpp:581
+msgid "DVG-CPT: no DV."
+msgstr ""
+
+#: src/dvgrab.cpp:604
+msgid "DVG-CPT: capture stopped."
+msgstr ""
+
+#: src/dvgrab.cpp:605
+#, c-format
+msgid "%8.2f Mo, %d frames written"
+msgstr ""
+
+#: src/dvgrab.cpp:619
+#, c-format
+msgid ""
+"timecode: %2.2d:%2.2d:%2.2d.%2.2d\n"
+"date: %4.4d.%2.2d.%2.2d %2.2d:%2.2d:%2.2d"
+msgstr ""
+
+#: src/dvgrab.cpp:626
+#, c-format
+msgid "DVG-CPT: %d dropped frames in this capture"
+msgstr ""
+
+#: src/dvgrab.cpp:726
+msgid "DVG-CPT: writing failed."
+msgstr ""
+
+#: src/dvgrab.cpp:760
+#, c-format
+msgid ""
+"DVG-CPT: %8.2f Mo, %d frames written\n"
+"timecode %2.2d:%2.2d:%2.2d.%2.2d \n"
+"date %4.4d.%2.2d.%2.2d %2.2d:%2.2d:%2.2d"
+msgstr ""
+
+#: src/mainwindow.cpp:31
+msgid "Capture control"
+msgstr ""
+
+#: src/mainwindow.cpp:32
+msgid "Standby"
+msgstr ""
+
+#: src/mainwindow.cpp:33
+msgid "Stop"
+msgstr ""
+
+#: src/mainwindow.cpp:34
+msgid "Record"
+msgstr ""
+
+#: src/mainwindow.cpp:35
+msgid "Pause"
+msgstr ""
+
+#: src/mainwindow.cpp:37
+msgid "Video file prefix"
+msgstr ""
+
+#: src/mainwindow.cpp:39
+msgid "Misc infos"
+msgstr ""
+
+#: src/mainwindow.cpp:40
+#, c-format
+msgid ""
+"Frames received: %6.6d\n"
+"Frames captured: %6.6d\n"
+"Total frames dropped: %3.3d\n"
+"Frames dropped\n"
+"during capture: %3.3d\n"
+"---\n"
+msgstr ""
+
+#: src/mainwindow.cpp:44
+#, c-format
+msgid ""
+"Port: %2.2d\n"
+"Node: %2.2d\n"
+"Channel: %2.2d\n"
+"GUID: Ox%16.16llx\n"
+"---\n"
+msgstr ""
+
+#: src/mainwindow.cpp:45
+msgid ""
+"Camera status:\n"
+"\t"
+msgstr ""
+
+#: src/mainwindow.cpp:46
+msgid ""
+"\n"
+"Camera is recording:\n"
+"\t"
+msgstr ""
+
+#: src/mainwindow.cpp:47
+msgid ""
+"\n"
+"Device capacities:\n"
+"\t"
+msgstr ""
+
+#: src/mainwindow.cpp:49
+msgid "Remaining disk space"
+msgstr ""
+
+#: src/mainwindow.cpp:50
+#, c-format
+msgid ""
+"\n"
+"TOTAL:   %5.2fGo\n"
+"\"Raw\" dv: %d:%2.2d:%2.2d\n"
+"\"AVI 2\" dv: %d:%2.2d:%2.2d\n"
+"\n"
+"---\n"
+"\n"
+msgstr ""
+
+#: src/mainwindow.cpp:52
+#, c-format
+msgid ""
+"FREE:   %5.2fGo\n"
+"\"Raw\" dv: %d:%2.2d:%2.2d\n"
+"\"AVI 2\" dv: %d:%2.2d:%2.2d\n"
+msgstr ""
+
+#: src/settingswindow.cpp:31
+#: src/settingswindow.back.cpp:31
+msgid "Capture"
+msgstr ""
+
+#: src/settingswindow.cpp:32
+#: src/settingswindow.back.cpp:32
+msgid "Hardware"
+msgstr ""
+
+#: src/settingswindow.cpp:33
+#: src/settingswindow.back.cpp:33
+msgid ""
+"Shortcuts\n"
+"GUI fonts\n"
+"GUI mode"
+msgstr ""
+
+#: src/settingswindow.cpp:38
+#: src/settingswindow.back.cpp:38
+msgid "Show video"
+msgstr ""
+
+#: src/settingswindow.cpp:39
+#: src/settingswindow.back.cpp:39
+msgid "1 img./ "
+msgstr ""
+
+#: src/settingswindow.cpp:40
+#: src/settingswindow.back.cpp:40
+msgid "Play beep"
+msgstr ""
+
+#: src/settingswindow.cpp:41
+#: src/settingswindow.back.cpp:41
+msgid "Dv display controls"
+msgstr ""
+
+#: src/settingswindow.cpp:43
+#: src/settingswindow.back.cpp:43
+msgid "Video file parameters"
+msgstr ""
+
+#: src/settingswindow.cpp:44
+#: src/settingswindow.back.cpp:44
+msgid "Directory and prefix for video files:"
+msgstr ""
+
+#: src/settingswindow.cpp:45
+#: src/settingswindow.back.cpp:45
+msgid "Video file type:"
+msgstr ""
+
+#: src/settingswindow.cpp:46
+#: src/settingswindow.back.cpp:46
+msgid "AVI 1 (*.avi)"
+msgstr ""
+
+#: src/settingswindow.cpp:47
+#: src/settingswindow.back.cpp:47
+msgid "AVI 2 (*.avi)"
+msgstr ""
+
+#: src/settingswindow.cpp:48
+#: src/settingswindow.back.cpp:48
+msgid "Raw (*.dv)"
+msgstr ""
+
+#: src/settingswindow.cpp:49
+#: src/settingswindow.back.cpp:49
+msgid "Raw (*.dif)"
+msgstr ""
+
+#: src/settingswindow.cpp:50
+msgid "Jpeg (*.jpg)"
+msgstr ""
+
+#: src/settingswindow.cpp:51
+#: src/settingswindow.back.cpp:50
+msgid "Max file size(Mo):"
+msgstr ""
+
+#: src/settingswindow.cpp:52
+#, c-format
+msgid ""
+"dv time: %2.2d:%2.2d:%2.2d:[%2.2d|%2.2d]\n"
+"PAL frames: %6.6d\n"
+"NTSC frames: %6.6d"
+msgstr ""
+
+#: src/settingswindow.cpp:53
+msgid ""
+"\n"
+"No limit!\n"
+msgstr ""
+
+#: src/settingswindow.cpp:54
+#: src/settingswindow.back.cpp:52
+msgid ""
+"Max file size in a collection(Mo)\n"
+"(ex: 2048 for a FAT32 partition):"
+msgstr ""
+
+#: src/settingswindow.cpp:55
+#: src/settingswindow.back.cpp:53
+msgid "Min file size in a collection(Mo):"
+msgstr ""
+
+#: src/settingswindow.cpp:57
+#: src/settingswindow.back.cpp:55
+msgid "File name options: Append to file name:"
+msgstr ""
+
+#: src/settingswindow.cpp:58
+#: src/settingswindow.back.cpp:56
+msgid "The dv Date/Time"
+msgstr ""
+
+#: src/settingswindow.cpp:59
+#: src/settingswindow.back.cpp:57
+msgid "The 1rst dv frame timecode"
+msgstr ""
+
+#: src/settingswindow.cpp:60
+#: src/settingswindow.back.cpp:58
+msgid "The system Date/Time"
+msgstr ""
+
+#: src/settingswindow.cpp:62
+#: src/settingswindow.back.cpp:60
+msgid "Recording features"
+msgstr ""
+
+#: src/settingswindow.cpp:63
+#: src/settingswindow.back.cpp:61
+msgid "Save one frame each:"
+msgstr ""
+
+#: src/settingswindow.cpp:64
+#: src/settingswindow.back.cpp:62
+msgid ""
+"Auto detect\n"
+"new clips"
+msgstr ""
+
+#: src/settingswindow.cpp:65
+#: src/settingswindow.back.cpp:63
+msgid "Max frames to save:"
+msgstr ""
+
+#: src/settingswindow.cpp:66
+#: src/settingswindow.back.cpp:64
+#, c-format
+msgid ""
+"PAL:\t\t%2.2d:%2.2d:%2.2d:%2.2d\n"
+"NTSC:\t%2.2d:%2.2d:%2.2d:%2.2d"
+msgstr ""
+
+#: src/settingswindow.cpp:67
+#: src/settingswindow.back.cpp:65
+msgid "No limit!\n"
+msgstr ""
+
+#: src/settingswindow.cpp:68
+#: src/settingswindow.back.cpp:66
+msgid "Enable Lockstep"
+msgstr ""
+
+#: src/settingswindow.cpp:69
+#: src/settingswindow.back.cpp:67
+msgid "Number of consecutive drops allowed:"
+msgstr ""
+
+#: src/settingswindow.cpp:70
+#: src/settingswindow.back.cpp:68
+msgid "Total number of drops allowed:"
+msgstr ""
+
+#: src/settingswindow.cpp:75
+#: src/settingswindow.back.cpp:73
+msgid "Device selection options"
+msgstr ""
+
+#: src/settingswindow.cpp:76
+#: src/settingswindow.back.cpp:74
+msgid ""
+"Use stdin\n"
+"as dv input"
+msgstr ""
+
+#: src/settingswindow.cpp:77
+#: src/settingswindow.back.cpp:75
+msgid ""
+"Port\n"
+"(auto = -1):"
+msgstr ""
+
+#: src/settingswindow.cpp:78
+#: src/settingswindow.back.cpp:76
+msgid ""
+"Node\n"
+"(auto = -1):"
+msgstr ""
+
+#: src/settingswindow.cpp:79
+msgid ""
+"Channel\n"
+"(auto = -1, default = 63):"
+msgstr ""
+
+#: src/settingswindow.cpp:80
+msgid "GUID (auto = Ox0000000000000000):"
+msgstr ""
+
+#: src/settingswindow.cpp:82
+#: src/settingswindow.back.cpp:80
+msgid "Capture options"
+msgstr ""
+
+#: src/settingswindow.cpp:83
+#: src/settingswindow.back.cpp:81
+msgid "Disable use of AV/C"
+msgstr ""
+
+#: src/settingswindow.cpp:84
+#: src/settingswindow.back.cpp:82
+msgid ""
+"Disable stop command\n"
+"when halting capture"
+msgstr ""
+
+#: src/settingswindow.cpp:85
+#: src/settingswindow.back.cpp:83
+msgid "Store VAUX data"
+msgstr ""
+
+#: src/settingswindow.cpp:86
+#: src/settingswindow.back.cpp:84
+msgid "Number of frames to keep in RAM:"
+msgstr ""
+
+#: src/settingswindow.cpp:88
+#: src/settingswindow.back.cpp:86
+msgid "Jpeg Options"
+msgstr ""
+
+#: src/settingswindow.cpp:89
+#: src/settingswindow.back.cpp:87
+msgid "Deinterlace dv frames"
+msgstr ""
+
+#: src/settingswindow.cpp:90
+#: src/settingswindow.back.cpp:88
+msgid "Allow overwriting jpeg files"
+msgstr ""
+
+#: src/settingswindow.cpp:91
+msgid ""
+"Quality\n"
+"(default = 90):"
+msgstr ""
+
+#: src/settingswindow.cpp:92
+msgid ""
+"Width\n"
+"(no change = -1):"
+msgstr ""
+
+#: src/settingswindow.cpp:93
+msgid ""
+"Height\n"
+"(no change = -1):"
+msgstr ""
+
+#: src/settingswindow.cpp:98
+#: src/settingswindow.back.cpp:96
+msgid "Shortcuts for menu entries"
+msgstr ""
+
+#: src/settingswindow.cpp:99
+#: src/settingswindow.back.cpp:97
+msgid "Menu entries"
+msgstr ""
+
+#: src/settingswindow.cpp:100
+#: src/settingswindow.back.cpp:98
+msgid "shortcuts"
+msgstr ""
+
+#: src/settingswindow.cpp:102
+#: src/settingswindow.back.cpp:100
+msgid "Select GUI mode"
+msgstr ""
+
+#: src/settingswindow.cpp:103
+#: src/settingswindow.back.cpp:101
+msgid "Activate \"small screen\" mode"
+msgstr ""
+
+#: src/settingswindow.cpp:105
+#: src/settingswindow.back.cpp:103
+msgid "Select the fonts of the GUI"
+msgstr ""
+
+#: src/settingswindow.cpp:106
+#: src/settingswindow.back.cpp:104
+msgid "Menu Font"
+msgstr ""
+
+#: src/settingswindow.cpp:107
+#: src/settingswindow.back.cpp:105
+msgid "Status bar Font"
+msgstr ""
+
+#: src/settingswindow.cpp:108
+#: src/settingswindow.back.cpp:106
+msgid "Small Font"
+msgstr ""
+
+#: src/settingswindow.cpp:109
+#: src/settingswindow.back.cpp:107
+msgid "Controls Font"
+msgstr ""
+
+#: src/settingswindow.cpp:766
+#: src/settingswindow.back.cpp:772
+msgid ""
+"This directory doesn't exist:\n"
+"\""
+msgstr ""
+
+#: src/settingswindow.cpp:766
+#: src/settingswindow.back.cpp:772
+msgid ""
+"\"\n"
+"Do you want to create it?"
+msgstr ""
+
+#: src/settingswindow.cpp:767
+#: src/settingswindow.back.cpp:773
+msgid "Directory doesn't exist"
+msgstr ""
+
+#: src/settingswindow.cpp:807
+#: src/settingswindow.back.cpp:813
+msgid "Choose the directory to store the video"
+msgstr ""
+
+#: src/settingswindow.cpp:1407
+#: src/settingswindow.back.cpp:1360
+msgid "Warning: \""
+msgstr ""
+
+#: src/settingswindow.cpp:1407
+#: src/settingswindow.back.cpp:1360
+msgid "\" is not a valid shortcut!"
+msgstr ""
+
+#: src/settingswindow.cpp:1408
+#: src/settingswindow.cpp:1430
+#: src/settingswindow.back.cpp:1361
+#: src/settingswindow.back.cpp:1384
+msgid "Invalid Shortcut!"
+msgstr ""
+
+#: src/settingswindow.cpp:1429
+#: src/settingswindow.back.cpp:1383
+msgid "Warning: Char only shortcuts are not allowed!"
+msgstr ""
+
+#: src/settingswindow.cpp:1443
+#: src/settingswindow.cpp:1462
+#: src/settingswindow.back.cpp:1396
+#: src/settingswindow.back.cpp:1415
+msgid ""
+"Overwrite existing shortcut?\n"
+"already assigned to: "
+msgstr ""
+
+#: src/settingswindow.back.cpp:51
+#, c-format
+msgid ""
+"dv time: %2.2d:%2.2d:%2.2d:%2.2d\n"
+"PAL frames: %6.6d\n"
+"NTSC frames: %6.6d"
+msgstr ""
+
+#: src/settingswindow.back.cpp:77
+msgid ""
+"Channel (auto = -1,\n"
+"default = 63):"
+msgstr ""
+
+#: src/settingswindow.back.cpp:78
+msgid ""
+"GUID\n"
+"(auto = Ox0000000000000000):"
+msgstr ""
+
+#: src/settingswindow.back.cpp:89
+msgid "Quality (default = 90):"
+msgstr ""
+
+#: src/settingswindow.back.cpp:90
+msgid "Width (no change = -1):"
+msgstr ""
+
+#: src/settingswindow.back.cpp:91
+msgid "Height (no change = -1):"
+msgstr ""
+

@@ -1,0 +1,192 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//FR" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Aide de DVGrabGUI → Référence → Menus</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Pré: <a href="ref_index.html">Référence</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_video_norm.html">Référence → Fenêtre Vidéo</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Référence → Menus</h3></center>
+
+	<img src="pict/GUI_menus.png" alt="Menus" width="657" height="291" border="0" usemap="#map">
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="0,0,54,24" alt="Aller à la description du menu &quot;Fichier&quot;" href="#menu_file">
+		<area shape="rect" coords="0,24,279,47" alt="Aller à la description de l&apos;entrée &quot;Charger configuration&quot; du menu &quot;Fichier&quot;" href="#menu_file_loadsettings">
+		<area shape="rect" coords="0,47,279,70" alt="Aller à la description de l&apos;entrée &quot;Recharger configuration&quot; du menu &quot;Fichier&quot; " href="#menu_file_reloadsettings">
+		<area shape="rect" coords="0,70,279,93" alt="Aller à la description de l&apos;entrée &quot;Recharger conf. par déf.&quot; du menu &quot;Fichier&quot; " href="#menu_file_reloaddefsettings">
+		<area shape="rect" coords="0,93,279,116" alt="Aller à la description de l&apos;entrée &quot;Enregistrer comme défault&quot; du menu &quot;Fichier&quot; " href="#menu_file_setasdefault">
+		<area shape="rect" coords="0,116,279,139" alt="Aller à la description de l&apos;entrée &quot;Réinitialiser défaut&quot; du menu &quot;Fichier&quot; " href="#menu_file_resetdefault">
+		<area shape="rect" coords="0,139,279,162" alt="Aller à la description de l&apos;entrée &quot;Sauver les réglages&quot; du menu &quot;Fichier&quot; " href="#menu_file_savesettings">
+		<area shape="rect" coords="0,162,279,185" alt="Aller à la description de l&apos;entrée &quot;Sauver les réglages sous…&quot; du menu &quot;Fichier&quot; " href="#menu_file_savesettingsas">
+		<area shape="rect" coords="0,185,279,208" alt="Aller à la description de l&apos;entrée &quot;Options&quot; du menu &quot;Fichier&quot; " href="#menu_file_options">
+		<area shape="rect" coords="0,220,279,243" alt="Aller à la description de l&apos;entrée &quot;Langues&quot; du menu &quot;Fichier&quot; " href="#menu_file_languages">
+		<area shape="rect" coords="279,218,359,290" alt="Aller à la description de l&apos;entrée &quot;Langues&quot; du menu &quot;Fichier&quot; " href="#menu_file_languages">
+		<area shape="rect" coords="0,251,279,274" alt="Aller à la description de l&apos;entrée &quot;Quitter&quot; du menu &quot;Fichier&quot; " href="#menu_file_exit">
+		<area shape="rect" coords="282,0,335,24" alt="Aller à la description du menu &quot;Action&quot;" href="#menu_work">
+		<area shape="rect" coords="282,24,541,47" alt="Aller à la description de l&apos;entrée &quot;Démarrer Thread&quot; du menu &quot;Action&quot;" href="#menu_work_startthread">
+		<area shape="rect" coords="282,47,541,70" alt="Aller à la description de l&apos;entrée &quot;Arrêter Thread&quot; du menu &quot;Action&quot;" href="#menu_work_stopthread">
+		<area shape="rect" coords="282,80,541,103" alt="Aller à la description de l&apos;entrée &quot;Démarrer Capture&quot; du menu &quot;Action&quot;" href="#menu_work_startcapture">
+		<area shape="rect" coords="282,103,541,126" alt="Aller à la description de l&apos;entrée &quot;Arrêter Capture&quot; du menu &quot;Action&quot;" href="#menu_work_stopcapture">
+		<area shape="rect" coords="282,136,541,159" alt="Aller à la description de l&apos;entrée &quot;Effacer les messages&quot; du menu &quot;Action&quot;" href="#menu_work_clearlogwindow">
+		<area shape="rect" coords="282,169,541,192" alt="Aller à la description de l&apos;entrée &quot;Plein Ecran&quot; du menu &quot;Action&quot;" href="#menu_work_fullscreen">
+		<area shape="rect" coords="544,0,586,24" alt="Aller à la description du menu &quot;Aide&quot;" href="#menu_help">
+		<area shape="rect" coords="544,24,656,47" alt="Aller à la description de l&apos;entrée &quot;Aide&quot; du menu &quot;Aide&quot;" href="#menu_help_help">
+		<area shape="rect" coords="544,47,656,70" alt="Aller à la description de l&apos;entrée &quot;A propos…&quot; du menu &quot;Aide&quot;" href="#menu_help_about">
+	</map>
+
+	<ul>
+		<li>
+			<a name="menu_file"></a>
+			<h4>Fichier:</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="menu_file_loadsettings"></a>
+				<b>Charger configuration</b>
+				<br>
+				Charger les réglages depuis un fichier .dvs.
+			</li>
+			<li>
+				<a name="menu_file_reloadsettings"></a>
+				<b>Recharger configuration</b>
+				<br>
+				Recharger les réglages depuis le fichier .dvs courant (peut être
+				équivalent à "<i>Recharger conf. par déf.</i>" ci-dessous).
+			</li>
+			<li>
+				<a name="menu_file_reloaddefsettings"></a>
+				<b>Recharger conf. par déf.</b>
+				<br>
+				Recharger les réglages par défaut
+				(depuis <code>~/.dvgrabgui/default.dvs.xml</code>).
+			</li>
+			<li>
+				<a name="menu_file_setasdefault"></a>
+				<b>Enregistrer comme défaut</b>
+				<br>
+				Enregistrer les réglages actuels dans la configuration par défaut
+				(dans le fichier <code>~/.dvgrabgui/default.dvs.xml</code>).
+			</li>
+			<li>
+				<a name="menu_file_resetdefault"></a>
+				<b>Réinitialiser défaut</b>
+				<br>
+				Réinitialiser les réglages par défaut (en écrasant
+				<code>~/.dvgrabgui/default.dvs.xml</code>&nbsp;–&nbsp;vous devez
+				ensuite le recharger si vous voulez: "<i>Recharger conf. par déf.</i>").
+			</li>
+			<li>
+				<a name="menu_file_savesettings"></a>
+				<b>Sauver les réglages</b>
+				<br>
+				Enregistrer les réglages actuels dans le fichier .dvs courant.
+			</li>
+			<li>
+				<a name="menu_file_savesettingsas"></a>
+				<b>Sauver réglages sous…</b>
+				<br>
+				Enregistrer les réglages actuels dans un autre fichier .dvs.
+			</li>
+			<li>
+				<a name="menu_file_options"></a>
+				<b>Options</b>
+				<br>
+				Affiche l'onglet Réglages.
+			</li>
+			<li>
+				<a name="menu_file_languages"></a>
+				<b>Langues</b>
+				<br>
+				Sélectionner la langue de l'interface. Notez que la <i>locale</i>
+				correspondante doit être installée sur votre système: sous
+				Debian Etch, par exemple, seule la locale sélectionnée à
+				l'installation est disponible par défaut…
+			</li>
+			<li>
+				<a name="menu_file_exit"></a>
+				<b>Quitter</b>
+				<br>
+				Quitter l'application.
+			</li>
+		</ul>
+		<li>
+			<a name="menu_work"></a>
+			<h4>Action:</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="menu_work_startthread"></a>
+				<b>Démarrer Thread</b>
+				<br>
+				Démarrer le thread de capture (c-à-d passer en mode "pause").
+			</li>
+			<li>
+				<a name="menu_work_stopthread"></a>
+				<b>Arrêter Thread</b>
+				<br>
+				Arrêter le thread de capture (c-à-d quitter les mode "pause").
+			</li>
+			<li>
+				<a name="menu_work_startcapture"></a>
+				<b>Démarrer Capture</b>
+				<br>
+				Démarrer l'enregistrement vidéo.
+			</li>
+			<li>
+				<a name="menu_work_stopcapture"></a>
+				<b>Arrêter Capture</b>
+				<br>
+				Arrêter l'enregistrement vidéo.
+			</li>
+			<li>
+				<a name="menu_work_clearlogwindow"></a>
+				<b>Effacer les messages</b>
+				<br>
+				Effacer la fenêtre "Messages".
+			</li>
+			<li>
+				<a name="menu_work_fullscreen"></a>
+				<b>Plein Ecran</b>
+				<br>
+				Entrer/quitter le mode plein écran.
+			</li>
+		</ul>
+		<li>
+			<a name="menu_help"></a>
+			<h4>Aide:</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="menu_help_help"></a>
+				<b>Aide</b>
+				<br>
+				Afficher la fenêtre d'aide.
+			</li>
+			<li>
+				<a name="menu_help_about"></a>
+				<b>A propos…</b>
+				<br>
+				Afficher la traditionnelle boîte de dialogue "A propos…".
+			</li>
+		</ul>
+	</ul>
+
+	<hr>
+	Pré: <a href="ref_index.html">Référence</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_video_norm.html">Référence → Fenêtre Vidéo</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 chez wanadoo point fr).
+		<br>
+		Projet hébergé sur <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

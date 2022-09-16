@@ -1,0 +1,19 @@
+<img src="GUI_norm_sett_gui.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,26,122,46" alt="Go to window menus description" href="ref_menus.html" />
+<area shape="rect" coords="5,120,82,140" alt="Go to &quot;Capture&quot; tab description" href="ref_settings_capt.html" />
+<area shape="rect" coords="5,181,82,201" alt="Go to &quot;Hardware&quot; tab description" href="ref_settings_hw.html" />
+<area shape="rect" coords="92,89,636,665" alt="Go to &quot;Shortcuts for menu entries&quot; description" href="#sett_gui_shortcuts" />
+<area shape="rect" coords="648,89,896,121" alt="Go to &quot;Activate &apos;small screen&apos; mode&quot; description" href="#sett_gui_smallmode" />
+<area shape="rect" coords="664,157,881,186" alt="Go to &quot;Menu font&quot; description" href="#sett_gui_menufont" />
+<area shape="rect" coords="664,209,881,238" alt="Go to &quot;Status bar font&quot; description" href="#sett_gui_statbarfont" />
+<area shape="rect" coords="664,261,881,290" alt="Go to &quot;Small font&quot; description" href="#sett_gui_smallfont" />
+<area shape="rect" coords="664,313,881,342" alt="Go to &quot;Controls font&quot; description" href="#sett_gui_controlsfont" />
+<area shape="rect" coords="648,139,896,357" alt="Go to &quot;Select the fonts of the GUI&quot; group description" href="#sett_gui_gguifonts" />
+</map>

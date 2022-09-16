@@ -1,0 +1,23 @@
+Source: dvgrabgui
+Section: graphics
+Priority: extra
+Maintainer: Bastien Montagne <montagne29@wanadoo.fr>
+Build-Depends: debhelper (>= 5), scons, zlib1g-dev, libavc1394-dev, libraw1394-dev, libiec61883-dev, libdv4-dev, libwxbase3.0-dev, libwxgtk3.0-gtk3-dev
+Standards-Version: 3.7.2
+
+Package: dvgrabgui-wx30
+Architecture: any
+Depends: ${shlibs:Depends}
+Conflicts: dvgrabgui-wx26
+Description: A graphical dv capture tool
+ This program is based on the "dvgrab" tool (i.e. it re-uses many of its code!).
+ It's major add is displaying frames of the dv stream (but cannot "display" the
+ sound!)
+ .
+ It as been designed for "live" dv capture, i.e. direct capture from the camera
+ while shooting. For this purpose, it can be used screen closed (on a laptop),
+ or with a touch-screen (special GUI optimised for 800x600 resolution).
+ It cannot command the "play/pause" and other VCR func.
+ .
+ This is the wxWidgets 3.0 version.
+ web site: http://dvgrabgui.sourceforge.net.

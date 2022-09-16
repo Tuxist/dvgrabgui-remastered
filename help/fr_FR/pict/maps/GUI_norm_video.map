@@ -1,0 +1,24 @@
+<img src="GUI_norm_video.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,24,152,47" alt="Aller à la page sur les menus" href="ref_menus.html" />
+<area shape="rect" coords="5,51,51,76" alt="Aller à la description générale de l&apos;onglet vidéo" href="#video_norm_videotab" />
+<area shape="rect" coords="51,51,117,76" alt="Aller à la description générale de l&apos;onglet réglages" href="#video_norm_settingstab" />
+<area shape="rect" coords="117,51,189,76" alt="Aller à la description générale de l&apos;onglet messages" href="#video_norm_logstab" />
+<area shape="rect" coords="189,51,226,76" alt="Aller à la description générale de l&apos;onglet aide" href="#video_norm_helptab" />
+<area shape="rect" coords="12,89,731,664" alt="Aller à la description de la &quot;vraie&quot; fenêtre vidéo" href="#video_norm_video" />
+<area shape="rect" coords="7,676,452,697" alt="Aller à la description de la première zone de la barre d&apos;état" href="#video_norm_statbar1" />
+<area shape="rect" coords="457,676,653,697" alt="Aller à la description de la deuxième zone de la barre d&apos;état" href="#video_norm_statbar2" />
+<area shape="rect" coords="657,676,803,697" alt="Aller à la description de la troisième zone de la barre d&apos;état" href="#video_norm_statbar3" />
+<area shape="rect" coords="807,676,903,697" alt="Aller à la description de la quatrième zone de la barre d&apos;état" href="#video_norm_statbar4" />
+<area shape="rect" coords="742,97,815,126" alt="Aller à la description du bouton &quot;Pause/Stop&quot;" href="#video_norm_standbystop" />
+<area shape="rect" coords="818,97,892,126" alt="Aller à la description du bouton &quot;Enregistrer/Pause&quot;" href="#video_norm_recordpause" />
+<area shape="rect" coords="742,147,892,167" alt="Aller à la description du champ texte &quot;Préfixe fichier&quot;" href="#video_norm_fileprefix" />
+<area shape="rect" coords="736,180,897,370" alt="Aller à la description de la zone texte &quot;infos diverses&quot;" href="#video_norm_miscinfo" />
+<area shape="rect" coords="736,378,897,670" alt="Aller à la description de la zone texte &quot;Espace disque&quot;" href="#video_norm_diskspace" />
+</map>

@@ -1,0 +1,9 @@
+Document: dvgrabgui_fr
+Title: Manuel de dvgrabgui pour Debian
+Author: Bastien Montagne <montagne29@wanadoo.fr>
+Abstract: Ce manuel décrit ce qu'est dvgrabgui et comment l'utiliser.
+Section: Apps/Graphics
+
+Format: HTML
+Index: /usr/share/doc/dvgrabgui/fr_FR/help/main.html
+Files: /usr/share/doc/dvgrabgui/fr_FR/help/*.html

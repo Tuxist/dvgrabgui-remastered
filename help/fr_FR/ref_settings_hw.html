@@ -1,0 +1,204 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//FR" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Aide de DVGrabGUI → Référence → Réglages → Matériel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Pré: <a href="ref_settings_capt.html">Référence → Réglages → Capture</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_settings_gui.html">Référence → Réglages → GUI</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Référence → Réglages → Matériel</h3></center>
+	
+	Cet onglet vous permet de régler des options plus avancées, concernant
+	principalement le matériel.
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_sett_hw.png" alt="Fenêtre &quot;Réglages→Matériel&quot;" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="8,26,152,46" alt="Aller à la page sur les menus" href="ref_menus.html">
+		<area shape="rect" coords="5,121,88,141" alt="Aller à la page sur les réglages &quot;Capture&quot;" href="ref_settings_capt.html">
+		<area shape="rect" coords="5,244,88,294" alt="Aller à la page sur les réglages &quot;GUI&quot;" href="ref_settings_gui.html">
+		<area shape="rect" coords="98,142,223,172" alt="Aller à la description de &quot;Utiliser stdin comme entrée dv&quot;" href="#sett_hw_usestdin">
+		<area shape="rect" coords="244,105,336,155" alt="Aller à la description de &quot;Port&quot;" href="#sett_hw_port">
+		<area shape="rect" coords="359,105,451,155" alt="Aller à la description de &quot;Node&quot;" href="#sett_hw_node">
+		<area shape="rect" coords="474,105,612,155" alt="Aller à la description de &quot;Channel&quot;" href="#sett_hw_channel">
+		<area shape="rect" coords="244,164,612,206" alt="Aller à la description de &quot;GUID&quot;" href="#sett_hw_guid">
+		<area shape="rect" coords="98,256,294,276" alt="Aller à la description de &quot;Désactiver l&apos;AV/C&quot;" href="#sett_hw_disableavc">
+		<area shape="rect" coords="98,278,294,308" alt="Aller à la description de &quot;Désactiver la commande stop à l&apos;arrêt de la capture&quot;" href="#sett_hw_disablestop">
+		<area shape="rect" coords="314,258,489,306" alt="Aller à la description de &quot;Nbr d&apos;images à garder en RAM&quot;" href="#sett_hw_framesinram">
+		<area shape="rect" coords="500,271,698,291" alt="Aller à la description de &quot;Enregistrer les données VAUX&quot;" href="#sett_hw_vaux">
+		<area shape="rect" coords="98,358,270,378" alt="Aller à la description de &quot;Désentrelacer les images&quot;" href="#sett_hw_jpegdeinterlace">
+		<area shape="rect" coords="98,382,270,402" alt="Aller à la description de &quot;Ecraser les fichiers jpeg&quot;" href="#sett_hw_jpegoverwrite">
+		<area shape="rect" coords="291,353,383,403" alt="Aller à la description de &quot;Qualité&quot;" href="#sett_hw_jpegquality">
+		<area shape="rect" coords="406,353,557,403" alt="Aller à la description de &quot;Largeur&quot;" href="#sett_hw_jpegwidth">
+		<area shape="rect" coords="580,353,731,403" alt="Aller à la description de &quot;Hauteur&quot;" href="#sett_hw_jpegheight">
+		<area shape="rect" coords="94,89,901,221" alt="Aller à la description du groupe &quot;Sélection du périphérique&quot;" href="#sett_hw_gdevice">
+		<area shape="rect" coords="94,239,901,321" alt="Aller à la description du groupe &quot;Options de capture&quot;" href="#sett_hw_gcaptoptions">
+		<area shape="rect" coords="94,339,901,418" alt="Aller à la description du groupe &quot;Options Jpeg&quot;" href="#sett_hw_gjpeg">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<a name="sett_hw_gdevice"></a>
+			<h4>Sélection du périphérique:</h4>
+			Ce cadre regroupe les réglages sur la source matérielle dv. Vous ne
+			devriez pas avoir besoin de modifier ces réglages, à moins d'utiliser
+			plus d'une source dv.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_hw_usestdin"></a>
+					<b>Utiliser stdin comme entrée dv</b>
+					<br>
+					Si activé, DVGrabGUI essayera de capturer un flux dv sur l'entrée
+					standard. <i>Fonctionnalité NON testée!</i> Notez que dans ce
+					cas, les quatre autres réglages sont désactivés.
+				</li>
+				<br>
+				<li>
+					<a name="sett_hw_port"></a>
+					<b>Port</b>
+					<br>
+					"Port" firewire utilisé pour rechercher un périphérique dv. Vous
+					devriez le laisser à "-1" pour permettre à DVGrabGUI de le
+					sélectionner automatiquement.
+				</li>
+				<li>
+					<a name="sett_hw_node"></a>
+					<b>Node</b>
+					<br>
+					"Nœud" firewire utilisé par le périphérique dv. Vous devriez le
+					laisser à "-1" pour permettre à DVGrabGUI de le sélectionner
+					automatiquement.
+				</li>
+				<li>
+					<a name="sett_hw_channel"></a>
+					<b>Channel</b>
+					<br>
+					"Canal" firewire sur lequel établir la connexion dv. Par défaut,
+					ce sera sur le "63". Vous devriez le laisser à "-1" pour
+					permettre à DVGrabGUI de le sélectionner automatiquement.
+				</li>
+				<li>
+					<a name="sett_hw_guid"></a>
+					<b>GUID</b>
+					<br>
+					"GUID" (identifiant) du périphérique firewire à utiliser comme
+					source dv. Si réglé à "0" ("<code>Ox0000000000000000</code>"),
+					DVGrabGUI essayera de détecter automatiquement une source dv.
+					Vous pouvez aussi choisir l'un des périphériques
+					détectés&nbsp;–&nbsp;DVGrabGUI essaye de vous donner leur nom…
+					mais c'est sans garantie! Ou vous pouvez entrer vous-même une
+					valeur de GUID hexadécimale (de type
+					"<code>Ox00af56980000ce76</code>"&nbsp;–&nbsp;les valeurs
+					formatées autrement donneront la valeur "zéro" par défaut!).
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_hw_gcaptoptions"></a>
+			<h4>Options de capture:</h4>
+			Ce cadre regroupe divers réglages internes.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_hw_disableavc"></a>
+					<b>Désactiver l'AV/C</b>
+					<br>
+					Ne pas utiliser les capacités de contrôle de la caméra par le PC
+					(pas très utile pour l'instant).
+				</li>
+				<li>
+					<a name="sett_hw_disablestop"></a>
+					<b>Désactiver la commande stop à l'arrêt de la capture</b>
+					<br>
+					Ne pas envoyer la commande stop à l'arrêt de la capture. Utile
+					seulement lors de la capture de cassettes dv…
+				</li>
+				<li>
+					<a name="sett_hw_framesinram"></a>
+					<b>Nbr d'images à garder en RAM</b>
+					<br>
+					Le nombre de frames dv à garder en cache dans la mémoire vive
+					(1 frame = 144Ko).
+				</li>
+				<li>
+					<a name="sett_hw_vaux"></a>
+					<b>Enregistrer les données VAUX</b>
+					<br>
+					Enregistrer les données Video AUXiliary des frames dv dans un
+					fichier HTML (truc de geek&nbsp;–&nbsp;attention, très gros
+					fichiers très rapidement!).
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a name="sett_hw_gjpeg"></a>
+			<h4>Options Jpeg:</h4>
+			Ce cadre regroupe les réglages d'enregistrement jpeg, disponibles
+			uniquement quand le format de fichier "Jpeg" a été choisi.
+			<ul>
+				<br>
+				<li>
+					<a name="sett_hw_jpegdeinterlace"></a>
+					<b>Désentrelacer les images</b>
+					<br>
+					Si activé, les images seront grossièrement désentrelacées avant
+					d'être enregistrées comme fichiers Jpeg.
+				</li>
+				<li>
+					<a name="sett_hw_jpegoverwrite"></a>
+					<b>Ecraser les fichiers jpeg</b>
+					<br>
+					Si activé, DVGrabGUI écrasera toujours les fichiers jpeg
+					enregistrés précédemment; sinon, il ajoutera les nouveaux (en
+					utilisant de plus grands numéros dans les noms de fichier…).
+				</li>
+				<li>
+					<a name="sett_hw_jpegquality"></a>
+					<b>Qualité</b>
+					<br>
+					La qualité de la compression Jpeg!
+				</li>
+				<li>
+					<a name="sett_hw_jpegwidth"></a>
+					<b>Largeur</b>
+					<br>
+					La largeur des images enregistrées: DVGrabGUI fera la mise à
+					l'échelle des frames dv si nécessaire (si cette "largeur" et la
+					"hauteur" qui suit ne donnent pas les proportions correctes,
+					c'est "largeur" qui sera modifiée!).
+				</li>
+				<li>
+					<a name="sett_hw_jpegheight"></a>
+					<b>Hauteur</b>
+					<br>
+					La hauteur des images enregistrées: DVGrabGUI fera la mise à
+					l'échelle des frames dv si nécessaire ("hauteur" n'est jamais
+					modifiée, voyez ci-dessus).
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<hr>
+	Pré: <a href="ref_settings_capt.html">Référence → Réglages → Capture</a> --- ↑<a href="main.html">Home</a> --- Suiv: <a href="ref_settings_gui.html">Référence → Réglages → GUI</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 chez wanadoo point fr).
+		<br>
+		Projet hébergé sur <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DVGrabGUI Help → Reference → Video Window</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	Prev: <a href="ref_menus.html">Reference → Window Menus</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_video_small.html">Reference → Video Window ("Small" mode)</a>
+	<hr>
+
+	<center><h1>DVGrabGUI 0.9.4</h1></center>
+	<center><h3>Reference → Video Window</h3></center>
+	
+	This is the main window, where you can see the dv stream, and start/stop
+	capture…
+	<br>
+	<br>
+
+	<img src="pict/GUI_norm_video.png" alt="Video window" width="910" height="704" border="0" usemap="#map">
+
+	<map name="map">
+		<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+		<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.0 -->
+		<!-- #$AUTHOR:Bastien Montagne -->
+		<area shape="rect" coords="8,24,124,47" alt="Go to window menus page" href="ref_menus.html">
+		<area shape="rect" coords="5,51,51,76" alt="Go to general description of video tab" href="#video_norm_videotab">
+		<area shape="rect" coords="51,51,112,76" alt="Go to general description of settings tab" href="#video_norm_settingstab">
+		<area shape="rect" coords="112,51,153,76" alt="Go to general description of logs tab" href="#video_norm_logstab">
+		<area shape="rect" coords="153,51,192,76" alt="Go to general description of help tab" href="#video_norm_helptab">
+		<area shape="rect" coords="12,89,731,664" alt="Go to the real video window description" href="#video_norm_video">
+		<area shape="rect" coords="7,676,452,697" alt="Go to first status bar area description" href="#video_norm_statbar1">
+		<area shape="rect" coords="457,676,653,697" alt="Go to second status bar area description" href="#video_norm_statbar2">
+		<area shape="rect" coords="657,676,803,697" alt="Go to third status bar area description" href="#video_norm_statbar3">
+		<area shape="rect" coords="807,676,903,697" alt="Go to fourth status bar area description" href="#video_norm_statbar4">
+		<area shape="rect" coords="742,97,815,126" alt="Go to &amp;quot;Standby/Stop&amp;quot; button description" href="#video_norm_standbystop">
+		<area shape="rect" coords="818,97,892,126" alt="Go to &amp;quot;Record/Pause&amp;quot; button description" href="#video_norm_recordpause">
+		<area shape="rect" coords="742,147,892,167" alt="Go to &amp;quot;File prefix&amp;quot; text control description" href="#video_norm_fileprefix">
+		<area shape="rect" coords="736,180,897,370" alt="Go to &amp;quot;Misc info&amp;quot; text area description" href="#video_norm_miscinfo">
+		<area shape="rect" coords="736,378,897,670" alt="Go to &amp;quot;disk space&amp;quot; info area description" href="#video_norm_diskspace">
+	</map>
+
+	<br>
+	<ul>
+		<li>
+			<h4>The four top tabs</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="video_norm_videotab"></a>
+				<b>The "Video" window</b>
+				<br>
+				This is the main window, where you start/stop the dv capture, and
+				control what you are recording.
+			</li>
+			<li>
+				<a name="video_norm_settingstab"></a>
+				<b>The "Settings" windows</b>
+				<br>
+				This is where you adjust (nearly) all settings about the capture
+				& GUI.
+				<br>
+				Window divided in three sub-tabs:
+				<a href="ref_settings_capt.html">Capture</a>,
+				<a href="ref_settings_hw.html">Hardware</a>, and
+				<a href="ref_settings_gui.html">GUI</a>.
+			</li>
+			<li>
+				<a name="video_norm_logstab"></a>
+				<b>The "Logs" window</b>
+				<br>
+				This window display all messages sent by DVGrabGUI (or the
+				underlying wxWidgets!)
+				<br>
+				Note that these messages are also written in a log file
+				(<code>~/.dvgrabgui/dvgrabgui.log</code>). Please send them with any
+				bug report!
+			</li>
+			<li>
+				<a name="video_norm_helptab"></a>
+				<b>The "Help" window</b>
+				<br>
+				Show this window!
+				<br>
+				Note that this tab is only available with wxWidgets 2.8; with
+				wxWidgets 2.6, the help shows up in a separate frame…
+			</li>
+		</ul>
+		<li>
+			<h4>The "Video" window</h4>
+		</li>
+		<ul>
+			<li>
+				<a name="video_norm_video"></a>
+				<b>Video display</b>
+				<br>
+				This window shows the dv stream when capture thread's running.
+				<br>
+				It allows you to start/stop capture thread (left-clicking left half
+				window), and…
+				<br>
+				It allows you to start/stop capture (left-clicking right half window).
+			</li>
+			<li>
+				<b>Status bar</b>
+				<br>
+				<ul>
+					<li>
+						<a name="video_norm_statbar1"></a>
+						<b>First area:</b> This is the "general info" area (menu
+						entries help, …).
+					</li>
+					<li>
+						<a name="video_norm_statbar2"></a>
+						<b>Second area:</b> This gives you the capture thread status.
+					</li>
+					<li>
+						<a name="video_norm_statbar3"></a>
+						<b>Third area:</b> This says you whether the mouse is captured
+						or not.
+					</li>
+					<li>
+						<a name="video_norm_statbar4"></a>
+						<b>Fourth area:</b> This gives you the capture status
+						(recording or paused).
+					</li>
+				</ul>
+			</li>
+			<br>
+			<li>
+				<a name="video_norm_standbystop"></a>
+				<b>Standby/Stop button</b>
+				<br>
+				Toggle button to start/stop capture thread (same as left half of
+				video window).
+			</li>
+			<li>
+				<a name="video_norm_recordpause"></a>
+				<b>Record/Pause button</b>
+				<br>
+				Toggle button to start/stop dv recording (same as right half of
+				video window&nbsp;–&nbsp;disabled when capture thread's not running!).
+			</li>
+			<li>
+				<a name="video_norm_fileprefix"></a>
+				<b>"Video file prefix" text area</b>
+				<br>
+				Enter here the prefix you want all your video files captured to have
+				(e.g. <code>capt-</code> will give files like
+				<code>capt-0001.avi</code>, <code>capt-0002.avi</code>, etc.)
+				<br>
+				Note that you have more options about file names in the
+				<a href="ref_settings_capt.html#sett_capt_gfilename">settings window</a>.
+			</li>
+			<li>
+				<a name="video_norm_miscinfo"></a>
+				<b>"Misc info" text area</b>
+				<br>
+				This static text gives you "hardware" infos: frames
+				received/captured/dropped during capture, Port/Node/Channel/GUID of
+				the established dv connection, and dv-reported camera status…
+			</li>
+			<li>
+				<a name="video_norm_diskspace"></a>
+				<b>Disk Space</b>
+				<br>
+				This area gives you info about total/remaining disk space (for the
+				mount point of the directory where you chose to store your
+				captured video files). 
+			</li>
+		</ul>
+	</ul>
+
+	<hr>
+	Prev: <a href="ref_menus.html">Reference → Window Menus</a> --- ↑<a href="main.html">Home</a> --- Next: <a href="ref_video_small.html">Reference → Video Window ("Small" mode)</a>
+	<hr>
+	<p style="text-align: right">
+		(c) 2006, 2007, 2008 Bastien Montagne (montagne29 at wanadoo dot fr).
+		<br>
+		Project hosted at <a href="http://sourceforge.net/projects/dvgrabgui/">sourceforge.net/projects/dvgrabgui</a>.
+	</p>
+</body>
+</html>

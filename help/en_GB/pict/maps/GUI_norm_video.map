@@ -1,0 +1,24 @@
+<img src="GUI_norm_video.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,24,124,47" alt="Go to window menus page" href="ref_menus.html" />
+<area shape="rect" coords="5,51,51,76" alt="Go to general description of video tab" href="#video_norm_videotab" />
+<area shape="rect" coords="51,51,112,76" alt="Go to general description of settings tab" href="#video_norm_settingstab" />
+<area shape="rect" coords="112,51,153,76" alt="Go to general description of logs tab" href="#video_norm_logstab" />
+<area shape="rect" coords="153,51,192,76" alt="Go to general description of help tab" href="#video_norm_helptab" />
+<area shape="rect" coords="12,89,731,664" alt="Go to the real video window description" href="#video_norm_video" />
+<area shape="rect" coords="7,676,452,697" alt="Go to first status bar area description" href="#video_norm_statbar1" />
+<area shape="rect" coords="457,676,653,697" alt="Go to second status bar area description" href="#video_norm_statbar2" />
+<area shape="rect" coords="657,676,803,697" alt="Go to third status bar area description" href="#video_norm_statbar3" />
+<area shape="rect" coords="807,676,903,697" alt="Go to fourth status bar area description" href="#video_norm_statbar4" />
+<area shape="rect" coords="742,97,815,126" alt="Go to &amp;quot;Standby/Stop&amp;quot; button description" href="#video_norm_standbystop" />
+<area shape="rect" coords="818,97,892,126" alt="Go to &amp;quot;Record/Pause&amp;quot; button description" href="#video_norm_recordpause" />
+<area shape="rect" coords="742,147,892,167" alt="Go to &amp;quot;File prefix&amp;quot; text control description" href="#video_norm_fileprefix" />
+<area shape="rect" coords="736,180,897,370" alt="Go to &amp;quot;Misc info&amp;quot; text area description" href="#video_norm_miscinfo" />
+<area shape="rect" coords="736,378,897,670" alt="Go to &amp;quot;disk space&amp;quot; info area description" href="#video_norm_diskspace" />
+</map>

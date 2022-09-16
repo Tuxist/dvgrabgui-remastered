@@ -1,0 +1,29 @@
+<img src="GUI_norm_sett_hw.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,26,123,46" alt="Go to window menus page" href="ref_menus.html" />
+<area shape="rect" coords="5,121,81,141" alt="Go to &quot;Capture&quot; settings page" href="ref_settings_capt.html" />
+<area shape="rect" coords="5,244,81,294" alt="Go to &quot;Shortcuts/GUI&quot;settings page" href="ref_settings_gui.html" />
+<area shape="rect" coords="90,142,180,172" alt="Go to &quot;Use stdin as dv input&quot; description" href="#sett_hw_usestdin" />
+<area shape="rect" coords="200,105,292,155" alt="Go to &quot;Port&quot; description" href="#sett_hw_port" />
+<area shape="rect" coords="315,105,407,155" alt="Go to &quot;Node&quot; description" href="#sett_hw_node" />
+<area shape="rect" coords="430,105,571,155" alt="Go to &quot;Channel&quot; description" href="#sett_hw_channel" />
+<area shape="rect" coords="200,164,571,206" alt="Go to &quot;GUID&quot; description" href="#sett_hw_guid" />
+<area shape="rect" coords="90,256,228,276" alt="Go to &quot;Disable use of AV/C&quot; description" href="#sett_hw_disableavc" />
+<area shape="rect" coords="90,278,248,308" alt="Go to &quot;Disable stop command when halting capture&quot; description" href="#sett_hw_disablestop" />
+<area shape="rect" coords="268,258,461,306" alt="Go to &quot;Number of frames to keep in RAM&quot; description" href="#sett_hw_framesinram" />
+<area shape="rect" coords="472,272,590,292" alt="Go to &quot;Store VAUX data&quot; description" href="#sett_hw_vaux" />
+<area shape="rect" coords="90,358,244,378" alt="Go to &quot;Deinterlace dv frames&quot; description" href="#sett_hw_jpegdeinterlace" />
+<area shape="rect" coords="90,382,270,402" alt="Go to &quot;Allow overwriting jpeg files&quot; description" href="#sett_hw_jpegoverwrite" />
+<area shape="rect" coords="289,353,381,403" alt="Go to &quot;Quality&quot; description" href="#sett_hw_jpegquality" />
+<area shape="rect" coords="404,353,501,403" alt="Go to &quot;Width&quot; description" href="#sett_hw_jpegwidth" />
+<area shape="rect" coords="524,353,621,403" alt="Go to &quot;Height&quot; description" href="#sett_hw_jpegheight" />
+<area shape="rect" coords="87,89,901,221" alt="Go to &quot;Device selection options&quot; group description" href="#sett_hw_gdevice" />
+<area shape="rect" coords="87,239,901,321" alt="Go to &quot;Capture options&quot; group description" href="#sett_hw_gcaptoptions" />
+<area shape="rect" coords="87,339,901,418" alt="Go to &quot;Jpeg Options&quot; group description" href="#sett_hw_gjpeg" />
+</map>

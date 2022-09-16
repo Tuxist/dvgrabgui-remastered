@@ -1,0 +1,16 @@
+dvgrabgui (0.9.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Minor changes in the build system.
+  * Bug correction in the GUI (under Fedora 9 / wxWidgets 2.8.7).
+
+ -- Bastien Montagne <montagne29@wanadoo.fr>  Thu, 21 Aug 2008 17:08:41 +0200
+
+dvgrabgui (0.9.3-1) unstable; urgency=low
+
+  * Initial release.
+  * This should also be the last, because I expect to start a complete new project!
+  * And this is also my first Debian package!
+
+ -- Bastien Montagne <montagne29@wanadoo.fr>  Thu, 10 Apr 2008 15:33:32 +0200
+

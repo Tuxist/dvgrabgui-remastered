@@ -1,0 +1,13 @@
+<img src="GUI_small_video.png" width="810" height="629" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,24,152,47" alt="Aller à la page sur les menus" href="ref_menus.html" />
+<area shape="rect" coords="7,49,28,431" alt="Aller à la description des onglets de la petite fenêtre vidéo" href="#video_small_tabs" />
+<area shape="rect" coords="759,56,798,621" alt="Aller à la description de la jauge d&apos;espace disque" href="#video_small_diskspace" />
+<area shape="rect" coords="35,51,754,621" alt="Aller à la description de la &quot;vraie&quot; fenêtre vidéo" href="#video_small_video" />
+</map>

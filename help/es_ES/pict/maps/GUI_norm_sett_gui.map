@@ -1,0 +1,19 @@
+<img src="GUI_norm_sett_gui.png" width="910" height="704" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Bastien Montagne -->
+<area shape="rect" coords="8,26,170,46" alt="Ir a la página de menús" href="ref_menus.html" />
+<area shape="rect" coords="5,120,83,140" alt="Ir a la página de &quot;Captura&quot;" href="ref_settings_capt.html" />
+<area shape="rect" coords="5,181,83,201" alt="Ir a la página de &quot;Material&quot;" href="ref_settings_hw.html" />
+<area shape="rect" coords="94,89,621,665" alt="Ir a la descripción de &quot;Atajos para entradas de menú&quot;" href="#sett_gui_shortcuts" />
+<area shape="rect" coords="633,89,896,121" alt="Ir a la descripción de &quot;Activar modalidad de &apos;pequeña pantalla&apos;&quot;" href="#sett_gui_smallmode" />
+<area shape="rect" coords="649,157,881,186" alt="Ir a la descripción de &quot;Tipo de Menú&quot;" href="#sett_gui_menufont" />
+<area shape="rect" coords="649,209,881,252" alt="Ir a la descripción de &quot;Tipo de la barra de estatuto&quot;" href="#sett_gui_statbarfont" />
+<area shape="rect" coords="649,275,881,304" alt="Ir a la descripción de &quot;Tipo pequeño&quot;" href="#sett_gui_smallfont" />
+<area shape="rect" coords="649,327,881,356" alt="Ir a la descripción de &quot;Tipo de los controles&quot;" href="#sett_gui_controlsfont" />
+<area shape="rect" coords="633,139,896,371" alt="Ir a la descripción del grupo &quot;Elija los tipos de letra del GUI&quot;" href="#sett_gui_gguifonts" />
+</map>

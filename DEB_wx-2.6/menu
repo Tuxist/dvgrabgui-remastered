@@ -1,0 +1,9 @@
+?package(dvgrabgui-wx26):\
+  needs="X11"\
+  section="Apps/Graphics"\
+  hints="dv, capture"\
+  title="dvgrabgui"\
+  longtitle="Capture live video from a dv camera (wx-2.6)"\
+  icon16x16="/usr/share/dvgrabgui/dvgrabgui16x16.xpm"\
+  icon32x32="/usr/share/dvgrabgui/dvgrabgui32x32.xpm"\
+  command="/usr/bin/dvgrabgui"
